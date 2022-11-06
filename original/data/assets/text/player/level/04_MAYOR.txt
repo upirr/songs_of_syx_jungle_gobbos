@@ -1,0 +1,3 @@
+MALE: "Mayor",
+FEMALE: "Mayor",
+DESC: "Your own citizens knows you and that's about it. Although word is spreading in the countryside and those who have heard about you suspect you could amount to something.",

@@ -1,0 +1,2 @@
+NAME: "The Raided",
+DESC: "Gained by being raided a lot.",

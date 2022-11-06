@@ -1,0 +1,2 @@
+NAME: "The Negotiator",
+DESC: "Gained by buying a lot of goods.",

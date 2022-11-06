@@ -1,0 +1,11 @@
+BONUS: {
+	PHYSICS:{
+		SPEED: 0.25,
+		STAMINA: 0.1,
+	}, 
+},
+OCCURENCE: 0.5,
+DISABLES_OTHER: [
+	GLUTTON,
+	SLEEPER,
+],

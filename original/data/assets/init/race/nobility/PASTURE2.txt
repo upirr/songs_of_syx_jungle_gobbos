@@ -1,0 +1,8 @@
+BONUS: {
+
+	ROOM_TYPE: {
+		HUNTER: 0.5,
+	},
+},
+COLOR: [80,80,20,],
+

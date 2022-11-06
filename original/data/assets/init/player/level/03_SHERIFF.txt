@@ -1,0 +1,13 @@
+POPULATION: 250,
+NOBLES: 2,
+BONUS: {
+	CIVIC: {
+		TRADE: 0.1,
+	},
+	BEHAVIOUR: {
+		HAPPINESS: 0.03,
+	},
+},
+ROOMS: [
+
+],

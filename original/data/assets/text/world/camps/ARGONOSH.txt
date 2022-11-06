@@ -1,0 +1,8 @@
+NAMES: [
+	"Lair of {0}",
+	"Tunnels of {0}",
+	"Crypt of {0}",
+	"Pits of {0}",
+	"Halls of {0}",
+	"Nest of {0}",
+],

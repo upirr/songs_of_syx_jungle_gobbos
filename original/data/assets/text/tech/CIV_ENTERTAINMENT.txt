@@ -1,0 +1,39 @@
+TECHS: [
+
+	{
+		NAME: "Speaker",
+		CATEGORY:"Civic",
+
+		DESC: "Your people gather round to hear the exciting news and gossip of the realms.  Sometimes, it is even true!  %r%%r%(In addition to service fulfillment, speakers educate or indoctrinate citizens up to 15% depending on their species education setting.)",
+	},
+
+	{
+		NAME: "Stage",
+		CATEGORY:"Civic",
+
+		DESC: "Actors enact elaborate plays and musical performances.  Whether they are applauded or pelted with rotten fruit, there's fun to be had by all.  %r%%r%(Larger, more expensive stages provide more fulfillment.)",
+	},
+
+	{
+		NAME: "Arena",
+		CATEGORY:"Civic",
+
+		DESC: "Doomed prisoners step upon the sands, ready to risk it all for glory and redemption.  Why waste a perfectly good source of entertainment to the gallows?
+
+		%r%%r%
+
+		(Larger, more expensive arenas provide more fulfillment.)",
+	},
+
+	{
+		NAME: "Elderly Resthome",
+		CATEGORY:"Civic",
+
+		DESC: "Your retirees need some extra entertainment to fill their life.
+
+		%r%%r%
+
+		(Retirement age can be set in Species -> Occupation menu.  This is a tradeoff of more mouths to feed but higher happiness.)",
+	},
+
+],

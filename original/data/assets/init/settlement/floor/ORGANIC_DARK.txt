@@ -1,0 +1,2 @@
+SPRITE: OrganicDark,
+COLOR_MASK: [255,255,255,],

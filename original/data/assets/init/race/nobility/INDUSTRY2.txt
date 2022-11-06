@@ -1,0 +1,7 @@
+BONUS: {
+	ROOM_TYPE: {
+		REFINER: 0.1,
+	},
+},
+COLOR: [80,80,10,],
+

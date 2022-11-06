@@ -1,0 +1,23 @@
+TYPE: LIVING,
+RESOURCES: [],
+AREA_COSTS: [],
+MINI_COLOR: [20,20,255,],
+FLOOR: DIRT,
+ITEMS: [
+	{
+		COSTS: [],
+		STATS: [2,],
+	},
+	{
+		COSTS: [],
+		STATS: [4,],
+	},
+	{
+		COSTS: [],
+		STATS: [7,],
+	},
+	{
+		COSTS: [],
+		STATS: [15,],
+	},
+],

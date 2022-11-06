@@ -1,0 +1,10 @@
+DECLINE_VALUE: 1.0,
+BONUS_MISC: {
+
+},
+
+STANDING: {
+	CITIZEN: 1.5,
+	SLAVE: 0.5,
+	NOBLE: 1,
+},

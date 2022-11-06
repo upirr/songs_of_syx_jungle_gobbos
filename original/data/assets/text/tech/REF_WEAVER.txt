@@ -1,0 +1,18 @@
+TECHS: [
+
+	{
+		NAME: "Weaver",
+		CATEGORY:"Refining",
+
+		DESC: "Simple cotton or animal fiber is turned into soft and strong bolts of vibrant cloth.  This can revolutionize your Clothiers' work or prove a valuable export.
+		",
+	},
+
+	{
+		NAME: "Weaver Bonus",
+		CATEGORY:"Refining",
+
+		DESC: "Faster looms and more efficient usage of fibers can give your weavers greatly improved output.",
+	},
+
+],

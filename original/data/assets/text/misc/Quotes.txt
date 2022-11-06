@@ -1,0 +1,106 @@
+QUOTES: [
+
+""There can be only one"
+:::-Connor MCloud, The Highlander",
+
+""Crush your enemies, see them driven before you and hear the lamentation of their women"
+:::-Conan, Conan the Barbarian",
+
+""I have something to say. It is better to burn out than to fade away."
+:::-Kurgan, The Highlander",
+
+""Life isn't fair. It's just fairer than death, that's all."
+:::-William Goldman, The Princess Bride",
+
+""Adopt a Cat!"
+:::-Gariot (Cat Slave)",
+
+""Inconceivable!"%r%
+"You keep using that word. I do not think it means what you think it means."%r%
+:::-William Goldman, The Princess Bride",
+
+""My name is Inigo Montoya, you killed my father, prepare to die!" 
+:::- William Goldman, The Princess Bride", 
+
+""Do I love you? My God, if your love were a grain of sand, mine would be a universe of beaches."
+:::- William Goldman, The Princess Bride",
+
+""Who says life is fair, where is that written?" 
+:::- William Goldman, The Princess Bride",
+
+""We'll never survive!"%r% 
+"Nonsense. You're only saying that because no one ever has." 
+:::- William Goldman, The Princess Bride",
+
+""Good night, Westley. Good work. Sleep well. I'll most likely kill you in the morning.""
+:::- William Goldman, The Princess Bride",
+
+""I'll tell you the truth and its up to you to live with it." 
+:::- William Goldman, The Princess Bride",
+
+""They were last season's winners!"%r% 
+"No, last season's losers."
+:::- The Running Man",
+
+""I hope you leave enough room for my fist, because I'm going to ram it into your stomach & break your god damn spine!"
+:::- The Running Man",
+
+""The Butcher of Bakersfield is in my bathroom!"
+:::- The Running Man",
+
+""Freedom of speech doesn't protect speech you like; it protects speech you don't like."
+:::- Larry Flynt",
+
+""You have to be able to tolerate what you don't necessarily like so you can be free."
+:::- Larry Flynt",
+
+""Majority rule only works if you're also considering individual rights. Because you can't have five wolves and one sheep voting on what to have for supper."
+:::- Larry Flynt",
+
+""Poor Stuart and Dwight, I bet they need a vacation. I guess they learned that stealing can have "grave" consequences! But don't worry, I'm pretty sure their criminal plans have been "laid to rest"! Hee hee hee hee hee!"
+:::-Tales From The Crypt",
+
+""Why did you kill my daughter?"%r%
+"I just needed her."
+:::-Parfume: Story of a Murderer",
+
+""Don't just stand there, kill something!"
+:::-Waterworld",
+
+""He's like a turd that won't flush."
+:::-Waterworld",
+
+""A womanish husband is no use to anyone. And your servants! What a fuss! I think you feed them too much."
+:::-Rome",
+
+""Mother, you are blinded by untapped lust. I'll get you a good big Cyrenian at the market and have done with it!"
+:::-Rome",
+
+""When this is over, we have to pay Jabba the Hutt here a visit."%r%
+"I'll bring the chainsaw."%r%
+"I'll bring the beer"
+:::-Tango & Cash",
+
+""I think with that IQ, you're unarmed but still VERY dangerous"
+:::-Tango & Cash",
+
+""Why just use plan A?"%r%
+"Because it's a hell of a lot better than your plan B, which we don't even have." 
+:::-Tango & Cash",
+
+""Well that sounds excellent. Our last doctor only just recently died in horrific circumstances. Can you start immediately?" 
+:::-Garth Marenghi's Darkplace",
+
+""We're doing all we can. but I'm not Jesus Christ. I've come to accept that now." 
+:::-Garth Marenghi's Darkplace",
+
+""I have never exploded. But, I know what it would be like. Don't ask me how, I just know. I've always, just known." 
+:::-Garth Marenghi's Darkplace",
+
+""The acceleration of the universe, A.K.A the effects of dark energy, is the effect of the fabric of space-time being naturally curved and possible spherical."
+:::-xxx",
+
+""Mass is relative to speed. Travelling at the speed of light will give you a relative mass of 0."
+:::-xxx",
+
+],

@@ -1,0 +1,41 @@
+INFO: {
+	NAME: "Arena",
+	NAMES: "Arenas",
+	DESC: "Where prisoners fight for glory and redemption at your subjects amusement. Bigger arenas offer better quality and more spectators.",
+},
+
+STATS: [
+	{
+		NAME: "Prisoners",
+		DESC: "Prisoners per day needed. Some of these will die each day.",
+	},
+	{
+		
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of this arena.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Fight pit",
+		DESC: "Basic arena for poorer quality games",
+	},
+	{
+		NAME: "Arena",
+		DESC: "Standard arena for quality games.",
+	},
+	{
+		NAME: "Grand Arena",
+		DESC: "The greatest arena with games worthy of royalties.",
+	},
+],
+
+SERVICE: {
+	NAME: "Arena",
+	NAMES: "Arenas",
+	DESC: "Where prisoners fight for glory and redemption at your subjects amusement.",
+	VERB: "Watching the games",
+},

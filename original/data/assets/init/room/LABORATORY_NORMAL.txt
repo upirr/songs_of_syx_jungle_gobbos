@@ -1,0 +1,187 @@
+TYPE: LABORATORY,
+RESOURCES: [WOOD,FURNITURE,STONE_CUT,METAL,],
+AREA_COSTS: [0.25,0,0,0,],
+FLOOR: [
+	DIRT,
+	WOOD,
+	STONE_MEDIUM_FINE,
+],
+MINI_COLOR: [134,184,184,],
+KNOWLEDGE_DEGRADE: 0.225,
+KNOWLEDGE_PER_WORKER: 70,
+KNOWLEDGE_GAIN_SPEED: 4,
+
+WORK: {
+	SHIFT_OFFSET: 0.375,
+	SOUND: LIBRARY,
+	USES_TOOL: true,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 1.0,
+},
+
+ITEMS: [
+	{
+		COSTS: [4,3,1,1,],
+		STATS: [1.35,2,],
+	},
+],
+
+UPGRADES: [
+	{
+		RESOURCE_MASK: [1,1,0,0,],
+		BOOST: 0,
+	},
+	{
+		RESOURCE_MASK: [2,2,1,1,],
+		BOOST: 0.5,
+	},
+	{
+		RESOURCE_MASK: [3,3,3,3,],
+		BOOST: 1.0,
+	},
+],
+
+SPRITES: {
+	TABLE_COMBO: [
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 3,
+			FRAMES: [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+		{
+			COLOR: {R: 216, G: 192, B: 158,},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 3,
+			FRAMES: [
+				COMBO_TABLES: 4,
+			],
+		},
+		{
+			COLOR: {R: 216, G: 192, B: 158,},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 3,
+			FRAMES: [
+				COMBO_TABLES: 3,
+			],
+		},
+	],
+	
+	TABLE_KNOWLEDGE_ONTOP_1X1: {
+		FPS: 0,
+		SHADOW_LENGTH: 2,
+		SHADOW_HEIGHT: 0,
+		ROTATES: false,
+		FRAMES: [
+			SCIENCE: 0,
+		],
+	},
+	
+	CHAIR_1X1: [
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 0,
+			],
+		},
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				CHAIRS: 3,
+			],
+		},
+	],
+	
+	WORK_TABLE_1X1: [
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				SCIENCE: 1,
+				SCIENCE: 2,
+				SCIENCE: 1,
+				SCIENCE: 2,
+				SCIENCE: 11,
+				SCIENCE: 12,
+			],
+		},
+		{
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: true,
+			FRAMES: [
+				SCIENCE: 3,
+				SCIENCE: 4,
+				SCIENCE: 3,
+				SCIENCE: 4,
+				SCIENCE: 11,
+				SCIENCE: 12,	
+			],
+		},
+	],
+	WORK_STANDALONE_1X1: [
+		{
+			FPS: 5,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 6,
+				SCIENCE: 5,
+				SCIENCE: 6,
+			],
+		},
+		{
+			FPS: 5,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 5,
+				SCIENCE: 6,
+				SCIENCE: 5,
+				SCIENCE: 6,
+			],
+		},
+		{
+			FPS: 5,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			ROTATES: false,
+			FRAMES: [
+				SCIENCE: 7,
+				SCIENCE: 7,
+				SCIENCE: 7,
+				SCIENCE: 7,
+				SCIENCE: 7,
+				SCIENCE: 8,
+				SCIENCE: 7,
+				SCIENCE: 8,
+			],
+		},
+	],
+
+},

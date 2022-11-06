@@ -1,0 +1,3 @@
+MALE: "High King",
+FEMALE: "High Queen",
+DESC: "You are a despot amongst despots. Everyone in Syx knows your name.",

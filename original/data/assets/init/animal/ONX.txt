@@ -1,0 +1,27 @@
+SPEED: 4,
+HEIGHT: 6,
+MASS: 45,
+
+SOUND: SHEEP,
+
+SPRITE: Onx,
+COLOR: [255,255,255,],
+
+CARAVAN: true,
+
+RESOURCES: [MEAT, COTTON,],
+RESOURCE_AMOUNT: [0.8, 0.5,],
+
+CLIMATE: {
+	COLD: 1.0,
+	TEMPERATE: 1,
+	HOT: 0,
+},
+
+TERRAIN: {
+	FOREST: 0.5,
+	NONE: 1.0,
+},
+
+PACK: true,
+GRAZES: true,

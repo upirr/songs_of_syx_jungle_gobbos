@@ -1,0 +1,3 @@
+NAME: "Armour",
+NAMES: "Armour",
+DESC: "Used to equip soldiers for battle.",

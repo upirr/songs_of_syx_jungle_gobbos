@@ -1,0 +1,28 @@
+MASS: 35,
+SPEED: 5,
+HEIGHT: 7,
+
+SOUND: SHEEP,
+
+SPRITE: Dinoris,
+COLOR: [255,255,255,],
+
+CARAVAN: false,
+
+RESOURCES: [MEAT, EGG,],
+RESOURCE_AMOUNT: [0.5, 0.5,],
+
+CLIMATE: {
+	COLD: 0.0,
+	TEMPERATE: 1,
+	HOT: 0.5,
+},
+
+TERRAIN: {
+	FOREST: 1.0,
+	WET: 0.7,
+	NONE: 0.2,
+},
+
+PACK: true,
+GRAZES: true,

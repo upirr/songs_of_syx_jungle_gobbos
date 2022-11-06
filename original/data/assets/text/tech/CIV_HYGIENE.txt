@@ -1,0 +1,21 @@
+TECHS: [
+
+	{
+		NAME: "Lavatories",
+		CATEGORY:"Civic",
+
+		DESC: "The Throne for the everyday peasant.",
+	},
+
+	{
+		NAME: "Bathhouse",
+		CATEGORY:"Civic",
+
+		DESC: "Rising steam and contended sighs fill this refuge of glistening marble.  A marvel of both art and engineering, the Bathhouse brings cleanliness to species with a need for elegance. 
+
+		%r%%r%
+
+		(Bathhouses need a constant supply of coal to operate)",
+	},
+
+],

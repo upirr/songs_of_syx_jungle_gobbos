@@ -1,0 +1,22 @@
+TECHS: [
+
+	{
+		NAME: "Metal Smelter",
+		CATEGORY:"Refining",
+
+		DESC: "A rivulet of liquid metal is poured into an ingot cast from the crucible.  Your dependency on other nations for metal is finally at an end.  This marks a new age of progress and power for your city state.
+
+		%r%%r%
+
+		(Metal requires raw ore and coal to produce.)
+		",
+	},
+
+	{
+		NAME: "Smelter Bonus",
+		CATEGORY:"Refining",
+
+		DESC: "Precisely controlled temperatures and better processing of ores can improve output of the Smelteries.",
+	},
+
+],

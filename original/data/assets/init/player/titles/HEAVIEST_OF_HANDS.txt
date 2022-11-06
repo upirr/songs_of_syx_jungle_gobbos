@@ -1,0 +1,17 @@
+REQUIREMENTS: {
+	COUNT: {
+		EXECUTIONS: {
+			AMOUNT: 2000,
+			SPAN: ALL_TIME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	BEHAVIOUR: {
+		LAWFULNESS: 0.1,
+	},
+},

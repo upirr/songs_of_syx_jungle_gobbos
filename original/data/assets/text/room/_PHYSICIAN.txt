@@ -1,0 +1,44 @@
+INFO: {
+	NAME: "Physician",
+	NAMES: "Physicians",
+	DESC: "A physician tends to your subjects health, which improves their ability to fend off disease and injuries",
+},
+
+WORK: {
+	TITLE: "Physician",
+	VERB: "Tending to subjects.",
+},
+
+STATS: [
+	{
+		NAME: "Physicians",
+		DESC: "How many Physicians that can work here.",
+	},
+	{
+		NAME: "Services",
+		DESC: "How many patients that can be serviced.",
+	},
+	{
+		NAME: "Quality",
+		DESC: "How well your patients can be serviced.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Workbench",
+		DESC: "Main item for examination and treatment.",
+	},
+	{
+		NAME: "Shelves",
+		DESC: "Improves quality.",
+	},
+],
+
+SERVICE: {
+	NAME: "Health Care",
+	NAMES: "Health Care",
+	DESC: "The access to physicians",
+	VERB: "Being examined",
+},
+

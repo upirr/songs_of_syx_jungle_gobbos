@@ -1,0 +1,49 @@
+INFO: {
+	NAME: "Lavatory",
+	NAMES: "Lavatories",
+	DESC: "Where subjects do their dirty deeds of need.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Lavatories",
+		TEXT: "Where subjects do their dirty deeds of need. It increases the reputation of your state, rather than having... brown smelly piles... lining the streets.",
+		KEY: "BARRACKS",
+		LINKS: [],
+	},
+},
+
+WORK: {
+	TITLE: "Plumber",
+	VERB: "Cleaning latrines",
+},
+
+STATS: [
+	{
+		NAME: "Latrines",
+		DESC: "How many guests that can be served",
+	},
+	{
+		
+	},
+	{
+		NAME: "Basins",
+		DESC: "Allows subjects to clean up after, increasing their hygiene.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Latrine",
+		DESC: "",
+	},
+	{
+		NAME: "Basins",
+		DESC: "Allows subjects to clean up after, increasing their hygiene",
+	},
+],
+
+SERVICE: {
+	NAME: "Lavatory",
+	NAMES: "Lavatories",
+	DESC: "The amount of crappers",
+	VERB: "Discharging",
+},

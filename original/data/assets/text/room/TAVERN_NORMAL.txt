@@ -1,0 +1,48 @@
+INFO: {
+	NAME: "Tavern",
+	NAMES: "Taverns",
+	DESC: "Where subjects can spend some time and drink. Requires Drink to operate.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Taverns",
+		TEXT: "here subjects can spend some time and drink. Requires Drink to operate.",
+	},
+},
+
+WORK: {
+	TITLE: "Tavern Keeper",
+	VERB: "Pouring drinks",
+},
+
+STATS: [
+	{
+		NAME: "Tables",
+		DESC: "How many guests that can be served",
+	},
+	{
+		NAME: "Coziness",
+		DESC: "Coziness increases the tavern experience.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Table",
+		DESC: "Add table spots",
+	},
+	{
+		NAME: "Nicknacks",
+		DESC: "Increases coziness",
+	},
+	{
+		NAME: "Carpets",
+		DESC: "Increases coziness",
+	},
+],
+
+SERVICE: {
+	NAME: "Table",
+	NAMES: "Tables",
+	DESC: "The amount of tables to serve subjects",
+	VERB: "Socializing",
+},

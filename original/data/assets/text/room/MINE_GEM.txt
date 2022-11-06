@@ -1,0 +1,17 @@
+INFO: {
+	NAME: "Gem Mine",
+	NAMES: "Gem Mines",
+	DESC: "Mines extract minerals from the ground. It's efficiency is determined by the density of the minerals along with the auxiliary items you place.",
+},
+
+
+BONUS: {
+	NAME: "Gem Mining",
+	DESC: "Increases the output of your gem miners.",
+},
+
+WORK: {
+	TITLE: "Gem Miner",
+	VERB: "Mining gems",
+},
+

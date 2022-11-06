@@ -1,0 +1,317 @@
+PLAYABLE: true,
+
+PROPERTIES: {
+	HEIGHT: 3,
+	WIDTH: 6,
+	ADULT_AT_DAY: 30,
+	CORPSE_DECAY: true,
+	SLEEPS: true,
+},
+
+HOME: JUNGLE_GOBBOS,
+
+TECH: [
+	*,
+],
+
+PREFERRED: {
+	FOOD: [
+		MEAT,
+		MUSHROOM,
+		FISH,
+	],
+	STRUCTURE: {
+		MOUNTAIN: 1,
+		STONE: 0.5,
+		GRAND: 0.3,
+		WOOD: 0.7,
+	},
+	WORK: {
+		*: 0.5,
+		_BARRACKS: 1.0,
+		_GUARD: 1.0,
+		_SLAVER: 1,
+		_EXECUTION: 1,
+		_COURT: 1.0,
+		_HUNTER: 1.0,
+	},
+	OTHER_RACES: {
+		DONDORIAN: -0.5,
+		GARTHIMI: -0.5,
+		HUMAN: -0.5,
+		CANTOR: -0.5,
+		TILAPI: -0.5,
+		ARGONOSH: -1,
+	},
+},
+
+POPULATION: {
+	MAX_REGION: 1,
+	MAX_CITY: 1,
+	REPRODUCTION_REGION_PER_DAY: 0.12,
+	IMMIGRANTS_PER_DAY: 4,
+	CLIMATE: {
+		COLD: 0.1,
+		TEMPERATE: 0.3,
+		HOT: 1,
+	},
+	TERRAIN: {
+		MOUNTAIN: 0.8,
+		FOREST: 2,
+		WET: 1.5,
+		NONE: 0.5,
+	},
+},
+
+BONUS: {
+
+	PHYSICS: {
+		RESISTANCE_COLD: 0.1,
+		RESISTANCE_HOT: 0.8,
+		DEATH_AGE: 120,
+		MASS: 40,
+	},
+	BATTLE: {
+		BLUNT_DAMAGE: 150,
+	},
+	ROOM_TYPE: {
+		FISHERY: 1.2,
+		HUNTER: 1.5,
+	},
+	ROOM: {
+		FARM_MUSHROOM: 1.2,
+		_HUNTER: 1.40,
+	},
+	RATES: {
+		LEARNING: 0.5,
+		NEUROTICISM: 0.05,
+	},
+	BEHAVIOUR: {
+		LAWFULNESS: 0.1,
+
+	},
+},
+
+TRAITS: {
+	FIGHTER: 0.1,
+	GLUTTON: 0.1,
+	SPRINTER: 0.1,
+},
+
+RESOURCE: {
+	MEAT: 10,
+	LEATHER: 5,
+},
+
+RELIGION_INCLINATION: {
+	TEMPLE_CRATOR: 0,
+	TEMPLE_AMINION: 0,
+	TEMPLE_ATHURI: 0,
+	TEMPLE_SHMALOR: 1,
+},
+
+STATS: {
+	SERVICE: {
+
+	},
+
+	EQUIP: {
+
+	},
+
+	DEATH: {
+
+	},
+
+	EDUCATION: {
+		EDUCATION: {
+			CITIZEN: 1,
+		},
+	},
+
+	FOOD: {
+
+	},
+
+	BATTLE: {
+		COMBAT_TRAINING: {
+					CITIZEN: 1.0,
+				},
+	},
+
+	NEEDS: {
+
+	},
+
+	WORK: {
+
+	},
+
+	POPULATION: {
+
+	},
+
+	ENVIRONMENT: {
+
+	},
+
+	ACCESS: {
+		HARMONY: {
+			NOBLE: 1,
+			SLAVE: 0.5,
+			CITIZEN: 1,
+			INVERTED: true,
+		},
+
+		NOISE: {
+			CITIZEN: 0.5,
+			INVERTED: true,
+		},
+
+		LIGHT: {
+		},
+
+		AWE: {
+		},
+
+		SPACE: {
+		},
+
+		UNBURRIED: {
+			CITIZEN: 0,
+			NOBLE: 0,
+			SLAVE: 0,
+		},
+
+	},
+
+	STORED: {
+		GEM: {
+			CITIZEN: 1,
+			SLAVE: 0,
+			NOBLE: 1,
+			MULTIPLIER: 0.5,
+		},
+	},
+},
+
+APPEARANCE: {
+
+	SPRITE_FILE: Jungle_gobbos,
+	SPRITE_EXTRA_FILE: Normal,
+	SPRITE_CHILD_FILE: Humanoid,
+	SPRITE_CHILD_SKELLETON_FILE: Humanoid_small,
+	SPRITE_SKELLETON_FILE: Humanoid,
+
+	COLOR_CLOTHES: [
+		{R: 114, G: 101, B: 35,},
+		{R: 142, G: 126, B: 44,},
+		{R: 83, G: 181, B: 94,},
+		{R: 62, G: 135, B: 70,},
+		{R: 105, G: 125, B: 239,},
+		{R: 79, G: 94, B: 181,},
+		{R: 53, G: 64, B: 122,},
+		{R: 193, G: 77, B: 0,},
+	],
+
+	COLOR_ARMOUR_LEVELS: [
+		{R: 107, G: 79, B: 65,},
+		{R: 99, G: 99, B: 99,},
+		{R: 168, G: 168, B: 180,},
+		{R: 209, G: 159, B: 54,},
+	],
+
+	COLOR_BLOOD: {R: 255, G: 30, B: 30,},
+
+	COLORS: {
+		SKIN: {
+			TURNS_WHITE_WHEN_DEAD: false,
+			RANDOM_SEED: 1,
+			VALUES: [
+				{R: 145, G: 147, B: 76,},
+				{R: 161, G: 190, B: 86,},
+				{R: 125, G: 159, B: 72,},
+				{R: 156, G: 186, B: 93,},
+				{R: 87, G: 106, B: 46,},
+				{R: 116, G: 142, B: 61,},
+				{R: 145, G: 177, B: 76,},
+				{R: 141, G: 167, B: 86,},
+				{R: 150, G: 192, B: 61,},
+				{R: 113, G: 161, B: 82,},
+				{R: 100, G: 130, B: 86,},
+				{R: 111, G: 154, B: 91,},
+			],
+		},
+	},
+
+	CHILD: {
+		OCCURRENCE_EXTRA1: 0,
+		OCCURRENCE_EXTRA2: 0,
+		COLOR_SKIN: SKIN,
+		COLOR_LEG: SKIN,
+		COLOR_EXTRA1: SKIN,
+		COLOR_EXTRA2: SKIN,
+	},
+
+	TYPES: [
+		{
+			OCCURRENCE: 1,
+			OCCURRENCE_EXTRA1: 0,
+			OCCURRENCE_EXTRA2: 0,
+			COLOR_SKIN: SKIN,
+			COLOR_LEG: SKIN,
+			COLOR_EXTRA1: SKIN,
+			COLOR_EXTRA2: SKIN,
+
+			NAMESET_FILE_FIRST: StdFirst,
+			NAMESET_FILE_SURNAME: StdLast,
+			NAMESET_FILE_FIRST_NOBLE: StdFirstNoble,
+			NAMESET_FILE_SURNAME_NOBLE: StdLastNoble,
+
+			PORTRAIT: [
+				**Faces
+				{
+					FRAME_START: 0,
+					FRAME_VARIATIONS: 6,
+					COLOR: SKIN,
+					STAINS: true,
+				},
+				**face paint
+				{
+					FRAME_START: 16,
+					FRAME_VARIATIONS: 4,
+					STAINS: true,
+					FRAME_OCCURRENCE: 0.2,
+				},
+				**Smile
+				{
+					FRAME_START: 8,
+					FRAME_VARIATIONS: 4,
+				},
+				**Eyes
+				{
+					FRAME_START: 12,
+					FRAME_VARIATIONS: 4,
+				},
+				**Eyepatch
+				{
+					FRAME_START: 6,
+					FRAME_VARIATIONS: 2,
+					FRAME_OCCURRENCE: 0.08,
+				},
+				**skirts
+				{
+					FRAME_START: 20,
+					FRAME_VARIATIONS: 4,
+					FRAME_OCCURRENCE: 0.95,
+				},
+				**headgear
+				{
+					FRAME_START: 24,
+					FRAME_VARIATIONS: 8,
+					FRAME_OCCURRENCE: 0.3,
+				},
+			],
+		},
+	],
+},

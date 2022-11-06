@@ -1,0 +1,2 @@
+NAME: "Sprinter",
+DESC: "A bit faster than the rest",

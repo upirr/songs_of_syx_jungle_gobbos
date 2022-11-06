@@ -1,0 +1,12 @@
+INFO: {
+	NAME: "Statue",
+	NAMES: "Statues",
+	DESC: "Spreads awe in your settlement",
+},
+
+ITEMS: [
+	{
+		NAME: "Statues",
+		DESC: "Big stone monuments.",
+	},
+],

@@ -1,0 +1,36 @@
+INFO: {
+	NAME: "Home",
+	NAMES: "Homes",
+	DESC: "Essential service where your subjects sleep and spend much of their time. comes in different sizes with different space values. The privacy value affects a subject's happiness depending on species. Bigger variations of homes allow for more occupants, but at the cost of privacy. Subjects can upgrade their homes with resources if you allow them.",
+},
+
+STATS: [
+	{
+		NAME: "Residents",
+		DESC: "Number of possible residents.",
+	},
+],
+
+INFO_PRIVACY: {
+	NAME: "Privacy",
+	DESC: "Some species like separate and private housing, some like when it's filled and lively.",
+},
+
+ITEMS: [
+	{
+		NAME: "Apartment",
+		DESC: "Small and private housing. Offers the best privacy - 100%.",
+	},
+	{
+		NAME: "House",
+		DESC: "A larger structure to house more residents. 75% privacy.",
+	},
+	{
+		NAME: "Dormitory",
+		DESC: "A large structure to house a lot of residents. 50% privacy",
+	},
+	{
+		NAME: "Longhouse",
+		DESC: "A great structure to house a lot of residents. 0% privacy",
+	},
+],

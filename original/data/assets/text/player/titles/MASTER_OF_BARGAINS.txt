@@ -1,0 +1,2 @@
+NAME: "Master of Bargains",
+DESC: "Gained by selling a lot of goods. Increases bartering.",

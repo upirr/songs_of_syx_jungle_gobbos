@@ -1,0 +1,10 @@
+INFO: {
+	NAME: "Workstation",
+	NAMES: "Workstations",
+	DESC: "A workstation is a marker you put down where the employed will perform jobs in the vicinity. Builders perform jobs the same way oddjobbers do, they are handy for far-away job sites, or to simply prioritise an job-area.",
+},
+
+WORK: {
+	TITLE: "Worker",
+	VERB: "Working",
+},

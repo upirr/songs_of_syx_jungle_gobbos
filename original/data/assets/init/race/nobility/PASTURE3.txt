@@ -1,0 +1,7 @@
+BONUS: {
+	ROOM_TYPE: {
+		FISHERY: 0.25,
+	},
+},
+COLOR: [80,80,20,],
+

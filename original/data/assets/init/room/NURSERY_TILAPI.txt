@@ -1,0 +1,70 @@
+TYPE: NURSERY,
+RESOURCES: [WOOD,FURNITURE,FABRIC,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: WOOD,
+MINI_COLOR: [0,255,255,],
+
+ITEMS: [
+	{
+		COSTS: [0,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [0,10,0,],
+		STATS: [0,0,4,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: FABRIC,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.5,
+	EDUCATION_FACTOR: 0,
+},
+
+INDUSTRY: {
+	IN: {
+		FRUIT: 0.5,
+	},
+	OUT: {
+		
+	},
+},
+
+RACE: TILAPI,
+INCUBATION_DAYS: 10, 
+
+SPRITES: {
+	1x2_CRIB: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: true,
+		FRAMES: [
+			CRIBS: 2,
+		],
+	},
+	2x2_DECOR: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: false,
+		FRAMES: [
+			CARPETS: 0,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 1,
+		],
+	},
+},

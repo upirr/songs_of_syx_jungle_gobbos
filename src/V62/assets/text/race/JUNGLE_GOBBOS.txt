@@ -1,0 +1,22 @@
+NAME: "Jungle goblin",
+NAMES: "Jungle goblins",
+POSSESSIVE: "Jungle goblin",
+DESC:
+"Jungle goblins are small biped humanoids of primarily green color. Aggressive, xenophobic and numerous.",
+
+DESC_LONG:
+"Jungle goblins are a race of small green humanoids that prefer jungles. They breed rapidly and hate all other races. They are skilled at hunting and fishing, like warm climate and prefer living in caves",
+
+ARMY_NAMES: [
+	"Gitsnots",
+	"Gitsniks",
+	"Wazzguts",
+	"Bootrogs",
+	"Black Sunz",
+	"Bloodfeathers",
+	"Drippinfangs",
+	"Gloomfangs",
+	"Nightgits",
+	"Madmoonz",
+	"Crookedhoodz",
+],

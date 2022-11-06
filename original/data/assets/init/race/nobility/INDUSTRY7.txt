@@ -1,0 +1,11 @@
+BONUS: {
+	ROOM: {
+		WORKSHOP_CARPENTER: 0.25,
+		_STOCKPILE: 0.25,
+	},
+	CIVIC: {
+		MAINTENANCE: 0.25,
+	},
+},
+COLOR: [80,80,10,],
+

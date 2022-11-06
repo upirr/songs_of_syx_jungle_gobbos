@@ -1,0 +1,4 @@
+INFO: {
+	DESC: "Certain buildings emit law and as people pass in their vicinity, they become less likely to commit crime.",
+	NAME: "Law",
+},

@@ -1,0 +1,43 @@
+TECHS: [
+
+	{
+		NAME: "City Guard",
+		CATEGORY:"Civic",
+
+		DESC: "Sometimes the greatest enemy is within.  Protect your people and treasury with guard outposts, and house the criminals in dungeons.  
+
+		%r%%r%
+
+		(Law takes time to adjust, just make sure you have good coverage and dungeon capacity.)",
+	},
+
+	{
+		NAME: "Corporal Punishment",
+		CATEGORY:"Civic",
+
+		DESC: "Send your prisoners to grisly public executions, or enslave them to serve their days in servitude.  
+
+		%r%%r%
+
+		(Execution and Enslavement rates can be set in the Law/Prisoner tab.  This will raise law more quickly but lower mercy and cause a loss of valuably trained citizens.)",
+	},
+
+	{
+		NAME: "Justice",
+		CATEGORY:"Civic",
+
+		DESC: "Your prisons overflow, and innocent citizens are sometimes put needlessly to the sword.  The Court can provide justice, but also serve as a symbol of your nation's power.  
+
+		%r%%r%
+
+		(Courts will allow some prisoners to immediately return to society and significantly boost the Law rating.",
+	},
+
+	{
+		NAME: "Arena",
+		CATEGORY:"Civic",
+		
+		DESC: "Doomed prisoners step upon the sands, ready to risk it all for glory and redemption.  Why waste a perfectly good source of entertainment to the gallows?",
+	},
+
+],

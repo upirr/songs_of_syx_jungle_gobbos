@@ -1,0 +1,3 @@
+MALE: "King",
+FEMALE: "Queen",
+DESC: "You are recognized as a force to be reckoned with, a proper ruler of Syx. As such, more people will follow your cause and you are granted some more noble helpers.",

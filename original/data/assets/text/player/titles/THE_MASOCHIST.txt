@@ -1,0 +1,2 @@
+NAME: "The Masochist",
+DESC: "You've written several treatises on ruling, now let's see if you can back it up with action!",

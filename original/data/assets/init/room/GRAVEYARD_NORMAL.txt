@@ -1,0 +1,36 @@
+TYPE: GRAVEYARD,
+RESOURCES: [WOOD,STONE,],
+AREA_COSTS: [0.2,0,],
+MINI_COLOR: [70,0,255,],
+
+
+ITEMS: [
+	{
+		COSTS: [0,4,],
+		STATS: [0.05,1,0,],
+	},
+	{
+		COSTS: [4,0,],
+		STATS: [0,0,.4,],
+	},
+	{
+		COSTS: [2,0,],
+		STATS: [0,0,.35,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.75,
+	SOUND: DIG,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+	EDUCATION_FACTOR: 0,
+},
+
+STANDING: {
+	SLAVE: 0,
+	CITIZEN: 1.0,
+	NOBLE: 2.5,
+	EXPONENT: 0.7,
+},

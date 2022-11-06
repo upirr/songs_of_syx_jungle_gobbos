@@ -1,0 +1,2 @@
+SPRITE: StoneMediumLight,
+COLOR_MASK: [255,255,255,],

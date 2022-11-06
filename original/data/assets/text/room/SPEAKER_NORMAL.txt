@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Speaker",
+	NAMES: "Speakers",
+	DESC: "A public speaker informing your citizens about news and gossip. Speakers add fulfilment to some, but also education/ indoctrination up to 15%",
+},
+
+WORK: {
+	TITLE: "Speaker",
+	VERB: "Spreading news.",
+},
+
+STATS: [
+	{
+	
+	},
+	{
+		NAME: "Spectators",
+		DESC: "The amount of spectators",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Stand",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	NAME: "News spot",
+	NAMES: "News spots",
+	DESC: "The amount of spots available.",
+	VERB: "Listening to news.",
+},

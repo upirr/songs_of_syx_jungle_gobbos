@@ -1,0 +1,17 @@
+REQUIREMENTS: {
+	COUNT: {
+		TRADE_PURCHASES: {
+			AMOUNT: 1000000,
+			SPAN: GAME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	CIVIC: {
+		TRADE: 0.25,
+	},
+},

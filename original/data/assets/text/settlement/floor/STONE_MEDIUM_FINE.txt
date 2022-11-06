@@ -1,0 +1,2 @@
+NAME: "Fancy road",
+DESC: "This road not only increases movement speed and road access, but also adds some inspiration for those who walk on it.",

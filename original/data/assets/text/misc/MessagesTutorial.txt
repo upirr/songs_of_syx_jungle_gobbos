@@ -1,0 +1,103 @@
+WELCOME: {
+	TITLE: "Welcome!",
+	MESSAGE: 
+"
+You have arrived on a new and promising land. But can you tame it and prove yourself a worthy king? I wonder...
+%r%%r%
+In the end you'll have to explore the game yourself, but work is underway to improve this tutorial and flesh out the in-game wiki, reached through the question mark top-right. 
+%r%%r%
+At your disposal are a few building materials and food. Make good use of them. This is also the centre of your city - the throne.
+%r%%r%
+There is still time to reap a harvest this year. Your immediate objective is to build a vegetable farm. You'll find the farms in the bottom panel room menu. Try building them near the water where fertility is high.
+%r%%r%
+Objective%r%
+Build a 8x8 tile vegetable farm:
+%r%%r%
+You can read this message and all further messages in the upper-right message button.
+%r%%r%
+May the gods bless your cause, oh great one! 
+
+",
+},
+
+HUNTER: {
+	TITLE: "Hunter",
+	MESSAGE: 
+"
+Very good. That farm will serve us well. You can read more about how farms work in the encyclopedia. To compliment the farm, let's build a hunter this time. Don't make it too big, as your construction materials are limited.
+%r%%r%
+Objective%r%
+Build a hunter.
+",
+},
+
+OUT_OF_RESOURCES: {
+	TITLE: "Out of Resources!",
+	MESSAGE: 
+"
+Oh no! You're out of building materials. I've spawned some by your throne, but next time, you'll have to create some for yourself, by harvesting trees and boulders.
+",
+},
+
+MAINTENANCE: {
+	TITLE: "Maintenance",
+	MESSAGE: 
+"
+Almost everything in this game requires maintenance in the form of labour and resources. Without it structures will decay and loose their efficiency. That's why it's time to build a janitor!
+%r%
+%r%
+Objective%r%
+Build a Janitor.
+",
+},
+
+IMMIGRATION: {
+	TITLE: "Immigration!",
+	MESSAGE: 
+"
+Your little villagers are now enjoying their stay to a degree that they recommend it to friends. Immigration will spawn when your happiness is over a certain degree. You can have a look at what factors that make up your happiness by clicking the citizen button top-right. It will give you an idea of how to progress later on. 
+To accept the new immigrants, you can do so in the citizen panel -> select species -> population, or by double clicking the species in the panel to the right. Be careful not to accept too many at once, as they will eat all our food!
+",
+},
+
+STOCKPILE: {
+	TITLE: "Storage",
+	MESSAGE: 
+"
+Very good! In order for our resources not to spoil, we need a warehouse. Build one.
+%r%%r% 
+Objective%r%
+Build a warehouse with at least 8 crates.
+",
+},
+
+STOCKPILE_ALLOCATE: {
+	TITLE: "Storage Allocation",
+	MESSAGE: 
+"
+Very good! Now you can designate the amount of crates for your resources laying about. I suggest some for vegetables, meat, wood and stone.  
+%r%%r% 
+Objective%r%
+Allocate at least 1 crate each to vegetables, meat, stone and wood. 
+",
+},
+
+STOCKPILE_WORKER: {
+	TITLE: "Employment",
+	MESSAGE: 
+"
+Excellent. Free workers will store resources laying about, but it's far better to allocate a deliveryman to do this work. Click the new warehouse and slide the worker slider to max.
+%r%%r% 
+Objective%r%
+Allocate a deliveryman.
+",
+},
+
+SUCCESS: {
+	TITLE: "Success!",
+	MESSAGE: 
+"
+Now you've got the basics set up for a self sustaining village. To proceed I recommend reading the encyclopedia. Don't forget to always allocate 30%-50% of your workforce towards food production and you should be relatively fine.
+",
+},
+

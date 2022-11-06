@@ -1,0 +1,47 @@
+TYPE: WORKSHOP,
+RESOURCES: [STONE,WOOD,],
+AREA_COSTS: [0.2,0.2,],
+FLOOR: STONE_MEDIUM_FINE,
+MINI_COLOR: [226,195,38,],
+
+ITEMS: [
+	{
+		COSTS: [2,4,],
+		STATS: [1.2,0,1,],
+	},
+	{
+		COSTS: [1,2,],
+		STATS: [0,3,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: SQUISH,
+	USES_TOOL: true,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.4,
+},
+
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				CLAY: 4.0,
+			},
+			OUT: {
+				POTTERY: 2.0,
+			},
+		},
+	},
+],
+
+
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},

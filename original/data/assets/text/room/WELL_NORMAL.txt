@@ -1,0 +1,32 @@
+INFO: {
+	NAME: "Well",
+	NAMES: "Wells",
+	DESC: "Offers your subjects a rudimentary way of washing from now and then.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Well",
+		TEXT: "Offers your subjects a rudimentary way of washing from now and then.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Spots",
+		DESC: "Available spots",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Well",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	NAME: "Well",
+	NAMES: "Wells",
+	DESC: "Offers your subjects a rudimentary way of washing from now and then.",
+	VERB: "Washing up",
+},

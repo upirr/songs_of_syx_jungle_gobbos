@@ -1,0 +1,10 @@
+POPULATION: 10000,
+NOBLES: 20,
+BONUS: {
+	ROOM: {
+		ADMIN_NORMAL: 8,
+	},
+},
+ROOMS: [
+
+],

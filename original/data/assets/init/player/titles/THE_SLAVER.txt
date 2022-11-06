@@ -1,0 +1,19 @@
+REQUIREMENTS: {
+	COUNT: {
+		ENSLAVED: {
+			
+			AMOUNT: 1500,
+			SPAN: GAME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	BEHAVIOUR: {
+		SUBMISSION: 0.10,
+		HAPPINESS: -0.025,
+	},
+},

@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Entelodont Pasture",
+	NAMES: "Entelodont Pastures",
+	DESC: "Breeds Entelodonts that will produce meat.
+	They are filled with livestock that in turn populate the pasture.",
+},
+
+BONUS: {
+	NAME: "Entelodont Breeding",
+	DESC: "Makes Entelodonts fatter and plumper",
+},
+
+WORK: {
+	TITLE: "Herder",
+	VERB: "Herding",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that will be needed. This is dependant on the amount of animals",
+	},
+	{
+		NAME: "Livestock",
+		DESC: "The maximum amount of animals this pasture can hold. Increased by placing the room over high fertility regions, or increasing its size",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gate",
+		DESC: "Entrance and resource storage for pasture.",
+	},
+],

@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Stagbeast",
+	NAMES: "Stagbeasts",
+	DESC: "A mighty antlered beast, this animal thrives on luscious planes. They are prized possessions by hunters as trophies, as securing such a trophy means having faced off against a herd of these mighty beasts that run down whole groups of hunters, while their sharp antlers can pierce any known armour.",
+},

@@ -1,0 +1,11 @@
+WIKI: {
+		CATEGORY: " Contribute!",
+		NAME: "Contribute to the wiki!",
+		CATEGORIES: [],
+		TEXT: "
+Save the developer some headache and contribute to this wiki! Write what you'd like to add and send it to him. Credits will appear in the game menu. Email: info@songsofsyx.com
+%r%
+%r%
+New articles are welcome, but also rewrites and expansions of existing ones. Contributions are highly appreciated! Email first to see if you're article isn't being work on by someone else. And the developer reserves the right to edit the articles to better fit the game.
+",
+},

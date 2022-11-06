@@ -1,0 +1,56 @@
+TYPE: MONUMENT,
+RESOURCES: [STONE_CUT,],
+AREA_COSTS: [0,],
+MINI_COLOR: [48,139,204,],
+ENVIRONMENT: AWE,
+ENVIRONMENT_VALUE: 1.0,
+ENVIRONMENT_RADIUS: 1.0,
+SOLID: true,
+
+ITEMS: [
+	{
+		COSTS: [2,],
+		STATS: [],
+	},
+],
+
+SPRITES: {
+	1x1: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: true,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+	2x2: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: true,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+	3x3: {
+		FPS: 0,
+		SHADOW_LENGTH: 24,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: true,
+		ROTATES: true,
+		FRAMES: [
+			MONUMENT: 1,
+		],
+	},
+	FLOOR_COMBO: {
+		COLOR: {R:255, G:240, B:220,},
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		FRAMES: [
+			COMBO_PODEUM: 1,
+		],
+	},
+},

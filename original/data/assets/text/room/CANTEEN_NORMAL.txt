@@ -1,0 +1,50 @@
+INFO: {
+	NAME: "Canteen",
+	NAMES: "Canteens",
+	DESC: "Canteens are a step up from Eateries, they offer better tasting food and a place to sit and socialize. they require coal to operate.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Canteen",
+		TEXT: "Canteens are a step up from Eateries, they offer better tasting food and a place to sit and socialize. they require coal to operate.",
+	},
+},
+
+WORK: {
+	TITLE: "Cook",
+	VERB: "Making meals",
+},
+
+STATS: [
+
+	{
+		NAME: "Guests",
+		DESC: "The amount of meals that can be served",
+	},
+	{
+		NAME: "Workers",
+		DESC: "An approximation of how many workers that will be required",
+	},
+	{
+		NAME: "Tables",
+		DESC: "Increases the quality of the experience.",
+	},
+],
+
+ITEMS: [
+	
+	{
+		NAME: "Cooking station",
+		DESC: "Increases meals production capacity.",
+	},
+	{
+		NAME: "Tables",
+		DESC: "Increases the quality of the experience.",
+	},
+],
+
+SERVICE: {
+	NAME: "Meal",
+	NAMES: "Meals",
+	DESC: "The amount of meals to be eaten",
+	VERB: "Grabbing a bite to eat",
+},

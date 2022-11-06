@@ -1,0 +1,23 @@
+TECHS: [
+
+	{
+		LEVEL_COST: 1200,
+
+		TREE_ORDER: 5175,
+
+		ROOMS: [
+			SCHOOL_NORMAL,
+		],
+	},
+
+	{
+		LEVEL_COST: 3000,
+
+		TREE_ORDER: 5176,
+
+		ROOMS: [
+			UNIVERSITY_NORMAL,
+		],
+	},
+
+],

@@ -1,0 +1,12 @@
+INFO: {
+	NAME: "Tree",
+	NAMES: "Trees",
+	DESC: "Spreads harmony in your settlement",
+},
+
+ITEMS: [
+	{
+		NAME: "Trees",
+		DESC: "",
+	},
+],

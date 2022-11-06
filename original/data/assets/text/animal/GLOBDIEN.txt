@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Globdien",
+	NAMES: "Globdiens",
+	DESC: "The docile Globdien have long since been domesticated by Dondorians and Dondorian settlers regularly take over a dozen eggs of said reptiles with them. These herbivores are generally harmless to the average hunter in the wild, albeit their jaws can snap bone with ease. Their eggs are harvested and collected for purposes of reproduction and the occasional omelette.",
+},

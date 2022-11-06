@@ -1,0 +1,508 @@
+MULTIPLIERS: {
+	PROSECUTION: {
+		NAME: "Prosecuted",
+		NAMES: "Prosecution",
+		DESC: "Prosecution is the number of citizens that have been wrongfully arrested without committing a crime.",
+	},
+},
+
+EQUIP: {
+	INFO: {
+		NAME: "Equipment",
+		DESC: "Having your subjects equip certain items can boost them in different ways. It can also improve happiness amongst them.",
+	},
+},
+
+SERVICE: {
+	INFO: {
+		NAME: "Services",
+		DESC: "Services are provided by building service rooms and allow access to your subjects.",
+	},
+},
+
+DEATH: {
+	INFO: {
+		NAME: "Death",
+		DESC: "Stats related to death causes",
+	},
+},
+
+BURIAL: {
+	INFO: {
+		NAME: "Burial",
+		DESC: "Stats related to afterlife.",
+	},
+	
+	DESECRATION: {
+		NAME: "Desecration",
+		DESC: "Caused either by you deleting a place of burial, or one becoming damaged. A graveyard must be deactivated for a while before it can be removed, all the burial spots must be empty.",
+	},
+},
+
+RELIGION: {
+	INFO: {
+		NAME: "Religion",
+		DESC: "Stats related to religion and afterlife.",
+	},
+	FAITH: {
+		NAME: "Faith",
+		DESC: "Faith is gained by having access to quality temples of the subjects religion. Low faith can lead to conversion to other religions.",
+	},
+	RELIGION_OPPOSITION: {
+		NAME: "Opposition",
+		DESC: "Different religions like other religions differently. Some just don't mix, and can cause unrest.",
+	},	
+},
+
+EDUCATION: {
+	INFO: {
+		NAME: "Education",
+		DESC: "Stats regarding your education levels, and boosts surrounding it.",
+	},
+	POLICY: {
+		NAME: "Indoctrinate",
+		DESC: "Teach nothing much other than how glorious you, and your kingdom is. Will make your citizens more submissive.",
+	},
+	SUBMISSION: {
+		NAME: "Submission",
+		DESC: "Indoctrinated people are easily controlled, and will thus add to their submission. Educated people, on the contrary, expect a bit more from you.",
+	},
+	KNOWLEDGE: {
+		NAME: "Knowledge",
+		DESC: "Educated subjects will boost your total knowledge. The amount is 40x multiplied by education",
+	},
+	EDUCATION: {
+		NAME: "Education",
+		DESC: "The education level of your citizens. Increased by having them go to school when young, and Universities when adult. Increases productivity in most industries, and educated adults work as a bank of knowledge, giving you tech points.",
+	},
+	INDOCTRINATION: {
+		NAME: "Indoctrination",
+		DESC: "Instead of learning useful things, education facilities can instead teach patriotism and do some harmless brainwashing. Indoctrinated subjects will be much more submissive.",
+	},
+},
+
+PROPERTIES: {
+	INFO: {
+		NAME: "Property",
+		NAMES: "Properties",
+		DESC: "Each species have different properties, boosting certain aspects. Properties can be boosted by equipment and stats.",
+	},
+	RESISTANCE_HOT: {
+		NAME: "Res. Hot",
+		DESC: "The resilience to hot temperatures. Value indicates how long a subject can stay out in hot weather before succumbing to it.",
+	},
+	RESISTANCE_COLD: {
+		NAME: "Res. Cold",
+		DESC: "The resilience to cold temperatures. Value indicates how long a subject can stay out in cold weather before succumbing to it.",
+	},
+	ARMOUR: {
+		NAME: "Armour",
+		DESC: "Armour blocks blunt force and to some degree also piercing damage.",
+	},
+	STAMINA: {
+		NAME: "Stamina",
+		DESC: "How much exertion a subject can tolerate before collapsing from fatigue.",
+	},
+	PIERCE_DAMAGE: {
+		NAME: "Pierce Damage",
+		DESC: "The amount of pierce damage is dealt by a subject in a fight.",
+	},
+	OFFENSE_SKILL: {
+		NAME: "Offensive Skill",
+		DESC: "Fighting offensive skill. Dictates the ability to get past an opponents defences and armour.", 
+	},
+	DEFENSE_SKILL: {
+		NAME: "Defensive Skill",
+		DESC: "Ability to block an opponent's attack when attacked.",
+	},
+	STRENGTH: {
+		NAME: "Strength",
+		DESC: "Indicates the amount of blunt damage a subjects deals when fighting.",
+	},
+	SPEED_MAX: {
+		NAME: "Speed",
+		DESC: "The maximum speed of a subject. Measured in cubits/second.",
+	},
+	WORK_PROFICIENCY: {
+		NAME: "Work Prof.",
+		DESC: "The proficiency of this worker. Improved by equipping them with tools, which greatly increases productivity.",
+	},
+	INTELLIGENCE: {
+		NAME: "Intelligence",
+		DESC: "Affects how much knowledge is gained from an educated citizen.",
+	},
+	DEFECATE_RATE: {
+		NAME: "Defecation",
+		DESC: "How many days it takes before a subject needs to defecate",
+	},
+	SOIL_RATE: {
+		NAME: "Soil",
+		DESC: "How fast a subject soils itself.",
+	},
+	HUNGER_RATE: {
+		NAME: "Hunger",
+		DESC: "How fast a subject becomes hungry.",
+	},
+	THIRST_RATE: {
+		NAME: "Thirst",
+		DESC: "How fast a subject becomes thirsty for drink.",
+	},
+	HEAL_RATE: {
+		NAME: "Healing",
+		DESC: "How fast a subject heals",
+	},
+	HEAL_NATURALLY_ABOVE: {
+		NAME: "Heal Above",
+		DESC: "Indicates at what level of injuries a subject heals naturally without intervention of a doctor",
+	},
+	SLEEP_RATE: {
+		NAME: "Sleep",
+		DESC: "The sleep cycle of a subject in days.",
+	},
+	IMMUNE_DEFENCE: {
+		NAME: "Immunity",
+		DESC: "How well a subject fends off disease",
+	},
+	SKINNYDIPS: {
+		NAME: "Skinnydipping",
+		DESC: "How prone a subject is to bathe in a natural body of water to unsoil itself, or to decrease exposure from warm weather",
+	},
+	CANNIBALIZE_TENDENCY: {
+		NAME: "Cannibalism",
+		DESC: "How comfortable a subject is of the idea of cannibalism",
+	},
+	MOURNING_RATE: {
+		NAME: "Mourning",
+		DESC: "How much an entity will mourn its dead friends",
+	},
+	DEATH_AGE: {
+		NAME: "Life span",
+		DESC: "The longest possible life-span of this individual",
+	},
+	OLD_AT: {
+		NAME: "Senior",
+		DESC: "At what part of life an individual turns old",
+	},
+	CRIMINALITY: {
+		NAME: "Criminality",
+		DESC: "How likely a subject is to pursue a criminal career.",
+	},
+	SUBMISSION: {
+		NAME: "Submission",
+		DESC: "Determines how submissive subjects are when faced with slavery. Submissive subjects have a smaller chance of inciting rebellions and run away.",
+	},
+	PIETY: {
+		NAME: "Piety",
+		DESC: "How often a subject wish to worship.",
+	},
+},
+
+POPULATION: {
+	INFO: {
+		NAME: "Population",
+		DESC: "Statistics regarding population",
+	},
+	NOBLES: {
+		NAME: "Noble",
+		NAMES: "Nobles",
+		DESC: "the amount of nobles of this species.",
+	},
+	AGE: {
+		NAME: "Age",
+		NAMES: "Age",
+		DESC: "The subjects's age in years.",
+	},
+	IMMIGRANTS: {
+		NAME: "Immigrant",
+		NAMES: "Immigrants",
+		DESC: "An immigrant is someone that has immigrated to your city and not born in it. Native citizens can have a problem with these.",
+	},
+	NATIVES: {
+		NAME: "Native",
+		NAMES: "Natives",
+		DESC: "Citizens that have been born and bred in the settlement.",
+	},
+	FORMER_SLAVES: {
+		NAME: "Former Slave",
+		NAMES: "Former Slaves",
+		DESC: "Citizens that are former slaves.",
+	},
+	MAJORITY: {
+		NAME: "Majority",
+		NAMES: "Majority",
+		DESC: "The percentage of this species contra your total population",
+	},
+	SLAVES_SELF: {
+		NAME: "Slaves",
+		NAMES: "Slaves",
+		DESC: "The amount enslaved of the same species",
+	},
+	SLAVES_OTHER: {
+		NAME: "Other Slaves",
+		NAMES: "Other Slaves",
+		DESC: "The amount enslaved of the all species",
+	},
+	SLAVES_FREED: {
+		NAME: "Freed Slave",
+		NAMES: "Freed Slaves",
+		DESC: "The amount of freed slaves. This is a temporary boost gained by freeing slaves, so be careful relying on it.",
+	},
+	WRONGFUL_DEATHS: {
+		NAME: "Wrongful Deaths",
+		NAMES: "Wrongful Deaths",
+		DESC: "The amount of people who have wrongfully died. This memory lingers in the minds of people after the events, but will slowly be forgotten.",
+	},
+	MERCY: {
+		NAME: "Mercy",
+		NAMES: "Mercy",
+		DESC: "How criminals are treated. Based on how many of them are executed",
+	},
+	LAW: {
+		NAME: "Law",
+		NAMES: "Law",
+		DESC: "How lawful your city is. Improved by building catching criminals, and process them in your law rooms.",
+	},
+},
+
+ENVIRONMENT: {
+	INFO: {
+		NAME: "Environment",
+		DESC: "External factors",
+	},
+	BUILDING_PREF: {
+		NAME: "Building",
+		NAMES: "Building preference",
+		DESC: "Building Preference. Different races like to hang around in different kind of structures. Some like wood, some like mountain caves. This value is registered when the subject is within a structure.",
+	},
+	OTHERS: {
+		NAME: "Others",
+		DESC: "The feeling towards your city's composition of species. A species may like or dislike another species.",
+	},
+	CLIMATE: {
+		NAME: "Climate",
+		DESC: "Climate is static once you've selected a starting position and can't be improved.",
+	},
+
+	EXPOSURE_COLD: {
+		NAME: "Cold",
+		DESC: "As temperatures falls your subjects will be exposed. Exposure can lead to death by exposure. Coldness is mitigated by clothes and Hearths. Different species also have natural protection to warmth and cold.",
+	},
+	EXPOSURE_HOT: {
+		NAME: "Hot",
+		DESC: "As temperatures rise your subjects will be exposed. Exposure can lead to death by exposure. Hottness is mitigated by skinnydipping and clothes. Different species also have natural protection from warmth and cold.",
+	},
+	SQUARENESS: {
+		NAME: "Squareness",
+		DESC: "How squarely shaped your rooms are.",
+	},
+	ROUNDNESS: {
+		NAME: "Roundness",
+		DESC: "How organically shaped your rooms are.",
+	},
+	CANNIBALISM: {
+		NAME: "Cannibalism",
+		DESC: "Cannibalism is eating other humanoids. It can be done by constructing cannibal rooms. Starving subjects can also resort to cannibalism. Cannibalism is a singular event, and once it happens once, it will take a long while to diminish.",
+	},
+	UNBURRIED: {
+		NAME: "Corpses",
+		DESC: "Unburied corpses can upset your citizens. they can also spread disease.",
+	},
+	RICHES: {
+		NAME: "Riches",
+		DESC: "How much riches are in your coffers divided by your citizens and nobles",
+	},
+	ACCESS_ROAD: {
+		NAME: "Roads",
+		DESC: "The quality and access this subject has to roads. Try building roads in the busy parts of the city, and of higher quality, to increase this.",
+	},
+},
+
+ACCESS: {
+	INFO: {
+		NAME: "Access",
+		DESC: "Other External factors",
+	},
+},
+
+FOOD: {
+	INFO: {
+		NAME: "Food",
+		DESC: "Stats related to food and hunger.",
+	},
+	STARVATION: {
+		NAME: "Starving",
+		NAMES: "Starvation",
+		DESC: "If a Subject can't find food when hungry, it will eventually start to starve. Starving subject will refuse to work, instead they will spend all their remaining effort to find something to eat.",
+	},
+	FOOD_PREFFERENCE: {
+		NAME: "Food Pref.",
+		DESC: "Food Preference. Each race has its own preference in food in the form of a list of edible resources. Each time a subject eats, it craves a specific food resources, selected randomly from the list. If the subject is successful in finding it, food preference will go up. If not, it will go down. This mechanics only works when the subject visits a food service room. Not when eating from the ground, or in a warehouse.", 
+	},
+	FOOD_DAYS: {
+		NAME: "Food Days",
+		DESC: "How long the food in your stockpiles, kitchens and feast halls will last.",
+	},
+	FOOD_RATIONS: {
+		NAME: "Food Rations",
+		DESC: "How many pieces of food each subject is allowed when they eat. Rations more than 1 can only be extracted from an eating service.",
+	},
+	DRINK_RATIONS: {
+		NAME: "Drink Rations",
+		DESC: "How many drinks subjects are allowed when thirsty. High rations will lead to more drunkenness and decrease health.",
+	},
+},
+
+
+WORK: {
+	INFO: {
+		NAME: "Work",
+		DESC: "Work related stats",
+	},
+	RETIREMENT_AGE: {
+		NAME: "Retirement Age",
+		DESC: "When a subject has worked half of its life expectancy, it can retire. A decree of 0% will have your subjects work their whole lives. 100% and subjects will retire once half their average life-span has been reached.",
+	},
+	WORK_EXPERIENCE: {
+		NAME: "Experience",
+		DESC: "Once your subjects get employed in a room, their work experience will increase with time. This skill greatly improves productivity.",
+	},
+	WORK_TIME: {
+		NAME: "Work Time",
+		DESC: "Progress of current work shift. Subject try to work for the better part of the day. Will reset when shift has ended.",
+	},
+	WORK_FULFILLMENT: {
+		NAME: "Fulfilment",
+		DESC: "Occupation Fulfilment. How this subject feels about its current occupation situation. Different species like different workplaces or activities.",
+	},
+	EMPLOYED: {
+		NAME: "Employed",
+		DESC: "The amount of subjects currently employed.",
+	},
+	RETIREMENT: {
+		NAME: "Retirement",
+		DESC: "Retirement activities. If retired, then current situation. If not, the prospect. Increased by retirement rooms and retirement age. Retirees will look for an activity that makes them the most happy.",
+	},
+},
+
+HOME: {
+	INFO: {
+		NAME: "Housing",
+		DESC: "Housing related stats.",	
+	},
+	HOUSED: {
+		NAME: "Housing",
+		DESC: "The housing of your citizens.",
+	},
+	FURNITURE: {
+		NAME: "Furniture",
+		DESC: "If allowed, subjects can use resources to furnish their dwellings. The resources used as furniture are consumed each year.",
+	},
+	SPACE: {
+		NAME: "Home Privacy",
+		DESC: "This is the privacy aspect of their living quarters. Larger housing options offer more density and less privacy.  However, different species feel differently about this arrangement.",
+	},
+},
+
+BATTLE: {
+	INFO: {
+		NAME: "Battle",
+		DESC: "Battle related stats",
+	},
+	COMBAT_TRAINING: {
+		NAME: "Melee training",
+		DESC: "The level of training of this subject. If a subject is assigned to a division, he will visit a training ground and train until he reaches the minimum training level of that division.",
+	},
+	ARCHERY_TRAINING: {
+		NAME: "Ranged training",
+		DESC: "Improves a soldier's capabilities of flinging ranged projectiles. A soldier must have basic training before they can do range training.",
+	},
+	COMBAT_EXPERIENCE: {
+		NAME: "Soldier Experience",
+		DESC: "The level of soldier experience of this subjects. Experience is gained through fighting and killing enemy troops.",
+	},
+	ENEMY_KILLS: {
+		NAME: "Enemy kills",
+		DESC: "The amount of enemy soldiers killed.",
+	},
+	DIVISION: {
+		NAME: "Division",
+		DESC: "The current division this subject is conscripted into",
+	},
+	DIVISION_RECRUIT: {
+		NAME: "Recruiting",
+		DESC: "If this subject is in process of being recruited into a division",
+	},
+	SOLDIERS: {
+		NAME: "Soldiers",
+		DESC: "The amount of soldiers",
+	},
+	RECRUITS: {
+		NAME: "Recruits",
+		DESC: "The amount of subjects undergoing training and are not yet fit for a division.",
+	},
+	ROUTING: {
+		NAME: "Routing",
+		DESC: "The amount of subjects that are routing.",
+	},
+},
+
+NEEDS: {
+	INFO: {
+		NAME: "Needs",
+		DESC: "Needs related stats",
+	},
+	DIRTINESS: {
+		NAME: "Dirtiness",
+		DESC: "How filthy this subject is. Can be remedied by having access to a bath house, or skinnydipping. Working in an industry or mine will increase the rate of becoming dirty.",
+	},
+	INJURIES: {
+		NAME: "Injuries",
+		DESC: "The amount of injuries. Shallow injuries will heal in time. Critical ones will lead to death unless the subject can visit a hospital (WIP)",
+	},
+	EXHAUSTION: {
+		NAME: "Exhaustion",
+		DESC: "Fighting and running subjects get exhausted. If exhaustion reaches a tresshold the subject will collapse. Exhausted soldiers are worse at fighting.",
+	},
+	CONSTIPATION: {
+		NAME: "Constipation",
+		DESC: "How constipated this subject is. Can be remedied by visiting the lavatory. A subject will try to defecate when it's below 50%",
+	},
+	SLEEPINESS: {
+		NAME: "Sleepiness",
+		DESC: "The sleepiness of this individual. Sleepy subjects will sleep on the ground, but a dormitory is often more desired. A subject will try to sleep when it's below 50%",
+	},
+	HUNGER: {
+		NAME: "Hunger",
+		DESC: "The access to food of this subject. Hungry subjects will look for food when hungry. the faster they find it, the better the access. They will try to eat when value is below 50%",
+	},
+	THIRST: {
+		NAME: "Thirst",
+		DESC: "Thirsty subjects wants Drink and will try to seek out stored Drink or visit taverns.",
+	},
+},
+
+STORED: {
+	INFO: {
+		NAME: "Storage",
+		DESC: "How much items are stored per capita.",
+	},
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

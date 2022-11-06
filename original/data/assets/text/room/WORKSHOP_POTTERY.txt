@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Pottery",
+	NAMES: "Potteries",
+	DESC: "workshop that makes Pottery from clay.",
+},
+
+BONUS: {
+	NAME: "Pottery",
+	DESC: "Increases effectiveness of Potteries",
+},
+
+WORK: {
+	TITLE: "Potterer",
+	VERB: "Making Pottery",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

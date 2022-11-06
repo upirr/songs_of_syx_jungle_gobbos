@@ -1,0 +1,3 @@
+MALE: "Emperor",
+FEMALE: "Empress",
+DESC: "Other lords look upon you with envy. Everyone in Syx shiver at the thought of your might.",

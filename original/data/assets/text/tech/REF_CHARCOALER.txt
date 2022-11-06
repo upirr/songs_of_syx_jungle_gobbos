@@ -1,0 +1,22 @@
+TECHS: [
+
+	{
+		NAME: "Charcoaler",
+		CATEGORY:"Refining",
+
+		DESC: "Simple wood fuel doesn't have the consistency or heat needed for many productions.  The charcoaler refines wood to coal for cities without easy access to rich Coal seams.
+
+		%r%%r%
+
+		(Only the Auxiliaries of the Charcoalers require metal to construct.)
+		",
+	},
+
+	{
+		NAME: "Charcoaler Bonus",
+		CATEGORY:"Refining",
+
+		DESC: "More control of airflow and larger chambers for the charcoal kilns can increase yield.",
+	},
+
+],

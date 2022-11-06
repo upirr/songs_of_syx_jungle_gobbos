@@ -1,0 +1,15 @@
+INFO: {
+	NAME: "Claypit",
+	NAMES: "Claypits",
+	DESC: "Claypits extract clay from clay deposits.",
+},
+
+BONUS: {
+	NAME: "Clay extraction",
+	DESC: "Increases the output of your Claypits.",
+},
+
+WORK: {
+	TITLE: "Clay Digger",
+	VERB: "Extracting Clay",
+},

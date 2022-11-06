@@ -1,0 +1,18 @@
+NAME: "Garthimi",
+NAMES: "Garthimis",
+POSSESSIVE: "Garthimian",
+DESC: 
+"Garthimi love death and destruction while caring little for the finer things in life. High reproductive rate makes them perfect cannon fodder, but given the right training and equipment, they can become quite proficient."
+",
+DESC_LONG:
+"Garthimi were created by the fallen god Aminon in the first war of the gods. After his imprisonment, the Garthimi retreated to the mountain caverns of the world where they raided the ones foolish enough to settle nearby. They reproduce naturally 
+in hatcheries and their exoskeleton is quite resistant to all kinds of weather, while also providing them with a natural battle boost. They like fish and meat. 
+",
+
+
+ARMY_NAMES: [
+	"The Manslayers",
+	"Queens Banner",
+	"Flesheaters",
+	"Wrath of Kathi",
+],

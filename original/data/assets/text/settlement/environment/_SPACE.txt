@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Space",
+	DESC: "Open space values.",
+},

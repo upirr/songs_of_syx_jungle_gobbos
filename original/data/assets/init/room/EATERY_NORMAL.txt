@@ -1,0 +1,30 @@
+TYPE: EATERY,
+RESOURCES: [WOOD,],
+AREA_COSTS: [0.2,],
+FLOOR: WOOD,
+MINI_COLOR: [198,106,0,],
+
+ITEMS: [
+	{
+		COSTS: [4,],
+		STATS: [1,0.075,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: LIBRARY,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+	EDUCATION_FACTOR: 0,
+},
+
+SERVICE: {
+	STANDING: {
+		CITIZEN: 1.5,
+		SLAVE: 2.5,
+		NOBLE: 0.5,
+	}, 
+},
+

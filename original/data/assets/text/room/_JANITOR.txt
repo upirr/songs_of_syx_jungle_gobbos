@@ -1,0 +1,29 @@
+INFO: {
+	NAME: "Janitor",
+	NAMES: "Janitors",
+	DESC: "Does maintenance in their vicinity. Consumes construction resources so make sure those are not too far off.",
+	WIKI: {
+		CATEGORY: "Infrastructure",
+		NAME: "Janitors",
+		TEXT: "The janitor outpost is the post from where janitors can be employed who are charged to conduct maintenance. The area which they work can be shown on hover. Sometimes they need construction materials and if these are not available, performance will suffer greatly.",
+	},
+},
+
+WORK: {
+	TITLE: "Janitor",
+	VERB: "Maintaining",
+},
+
+STATS: [
+	{
+		NAME: "Janitors",
+		DESC: "How many Janitors that can work here.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Janitors",
+		DESC: "How many Janitors that can work here.",
+	},
+],

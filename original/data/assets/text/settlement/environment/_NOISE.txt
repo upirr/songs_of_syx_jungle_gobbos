@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Noise",
+	DESC: "Noise travels from noisy rooms out into the open and disturbs your subjects. It's hindered slightly by walls.",
+},

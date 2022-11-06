@@ -1,0 +1,14 @@
+REQUIREMENTS: {
+	COUNT: {
+		INVASIONS: {
+			AMOUNT: 1000,
+			SPAN: ALL_TIME,
+		},
+	},
+},
+
+BONUS: {
+	BATTLE: {
+		DEFENCE_SKILL: 0.05,
+	},
+},

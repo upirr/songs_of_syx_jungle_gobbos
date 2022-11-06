@@ -1,0 +1,44 @@
+TECHS: [
+
+	{		
+		LEVEL_COST: 400,
+
+		TREE_ORDER: 5130,
+
+		ROOMS: [
+			_GUARD,
+			_PRISON,
+		],
+	},
+
+	{
+		LEVEL_COST: 800,
+
+		TREE_ORDER: 5130,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_LAW0: 1,
+		},
+
+		ROOMS: [
+			_EXECUTION,
+			_SLAVER,
+		],		
+	},
+
+	{
+		LEVEL_COST: 2000,
+
+		TREE_ORDER: 5130,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_LAW1: 1,
+		},
+
+		ROOMS: [
+			_COURT,
+		],		
+	},
+
+],
+

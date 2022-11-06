@@ -1,0 +1,36 @@
+INFO: {
+	NAME: "Hospital",
+	NAMES: "Hospitals",
+	DESC: "A place for your subjects when wounded or sick. Gives them a better chance of survival.",
+},
+
+WORK: {
+	TITLE: "Caretaker",
+	VERB: "Tending to patients",
+},
+
+STATS: [
+	{
+		NAME: "Patients",
+		DESC: "Treatment capacity.",
+	},
+	{
+		NAME: "Caretakers",
+		DESC: "A rough estimate of how many caretakers are needed.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Beds",
+		DESC: "Place for patients.",
+	},
+],
+
+SERVICE: {
+	NAME: "Bed",
+	NAMES: "Beds",
+	DESC: "The amount of available hospital beds",
+	VERB: "Being treated",
+},
+

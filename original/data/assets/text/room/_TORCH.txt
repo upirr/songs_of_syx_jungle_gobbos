@@ -1,0 +1,23 @@
+INFO: {
+	NAME: "Torch",
+	NAMES: "Torches",
+	DESC: "Spreads light in your settlement",
+	WIKI: {
+		CATEGORY: "Infrastructure",
+		NAME: "Torch",
+		TEXT: "Placed preferably where subjects and visitors gather after dark. Makes them feel safe and comfortable. Deters mischief. Bigger torches have a bigger effect.",
+	},
+},
+
+BONUS: {
+	NAME: "Lighting",
+	DESC: "Increases the effect of your torches.",
+},
+
+
+ITEMS: [
+	{
+		NAME: "Torch",
+		DESC: "Spreads light in your settlement.",
+	},
+],

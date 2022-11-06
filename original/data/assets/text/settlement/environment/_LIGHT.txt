@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Lighting",
+	DESC: "Most people like to have the darkness lit by light at night.",
+},

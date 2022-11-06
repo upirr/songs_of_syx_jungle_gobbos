@@ -1,0 +1,25 @@
+NAME: "Amevia",
+NAMES: "Amevias",
+POSSESSIVE: "Amevian",
+DESC: 
+"Amevias eats a lot, thrives in hot climates and has a passion for skinnydipping.
+",
+DESC_LONG:
+"Amevias were created by Crator as he roamed the southern deserts following his fallout with the Astari. He made a creature capable of surviving and thriving in the southern edges of the world.
+",
+
+ARMY_NAMES: [
+	"Blackfin Legion",
+	"Blessed Spawning",
+	"Sacred Host",
+	"Red Crests",
+	"Greenmist Crusaders",
+	"Last Defenders",
+	"Riders of Ikk",
+	"Ghost Warriors",
+	"Iron Guard",
+	"Swifttail Caste",
+	"Blindwater Congregation",
+	"",
+	"",
+],

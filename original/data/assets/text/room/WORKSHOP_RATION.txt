@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Rationmaker",
+	NAMES: "Rationmakers",
+	DESC: "Workshop that makes rations from a variety of different raw foods for long-term storage. The rations are also used by the military to feed the soldiers. Your citizens can eat food raw, and might even prefer it, but one bad harvest or one plague could begin a mass famine.",
+},
+
+BONUS: {
+	NAME: "Ration Making",
+	DESC: "Increases effectiveness of Rationmakers",
+},
+
+WORK: {
+	TITLE: "Ration Maker",
+	VERB: "Making Rations",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

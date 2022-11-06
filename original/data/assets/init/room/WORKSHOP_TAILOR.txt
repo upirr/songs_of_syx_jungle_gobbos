@@ -1,0 +1,69 @@
+TYPE: WORKSHOP,
+RESOURCES: [STONE,FURNITURE,METAL,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: [226,195,38,],
+
+ITEMS: [
+	{
+		COSTS: [2,4,0,],
+		STATS: [1.2,0,1,],
+	},
+	{
+		COSTS: [1,2,9,],
+		STATS: [0,3,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: FABRIC,
+	USES_TOOL: true,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.4,
+},
+
+INDUSTRIES: [
+
+	{
+		INDUSTRY: {
+			IN: {
+				LEATHER: 2,
+			},
+			OUT: {
+				CLOTHES: 2.0,
+			},
+		},
+	},
+	{
+		INDUSTRY: {
+			IN: {
+				FABRIC: 2.0,
+			},
+			OUT: {
+				CLOTHES: 4.0,
+			},
+		},
+	},
+	{
+		INDUSTRY: {
+			IN: {
+				LEATHER: 2.0,
+			},
+			OUT: {
+				ARMOUR: 0.2,
+			},
+		},
+	},
+],
+
+
+
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},

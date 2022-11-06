@@ -1,0 +1,48 @@
+TYPE: WORKSHOP,
+RESOURCES: [WOOD,FURNITURE,],
+AREA_COSTS: [0.2,0,],
+FLOOR: WOOD,
+MINI_COLOR: [226,195,38,],
+
+ITEMS: [
+	{
+		COSTS: [2,5,],
+		STATS: [1.2,0,1,],
+	},
+	{
+		COSTS: [1,4,],
+		STATS: [0,3,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.325,
+	SOUND: METAL,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.4,
+},
+
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				WOOD: 4.0,
+				LEATHER: 1.0,
+			},
+			OUT: {
+				BOW: 0.25,
+			},
+		},
+	},
+],
+
+
+
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},

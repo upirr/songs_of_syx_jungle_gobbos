@@ -1,0 +1,44 @@
+TYPE: CANTEEN,
+RESOURCES: [WOOD,POTTERY,METAL,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: WOOD,
+MINI_COLOR: [198,106,0,],
+
+ITEMS: [
+	{
+		COSTS: [2,2,4,],
+		STATS: [3,1,0,],
+	},
+	{
+		COSTS: [2,4,0,],
+		STATS: [0,0,1.5,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.5,
+	SOUND: SQUISH,
+	USES_TOOL: false,
+	FULFILLMENT: 0,
+	EDUCATION_FACTOR: 0,
+},
+
+SERVICE: {
+	STANDING: {
+		CITIZEN: 2.5,
+		SLAVE: 0,
+		NOBLE: 2,
+	}, 
+},
+
+
+INDUSTRY: {
+	IN: {
+		COAL: 0.5,
+	},
+	OUT: {
+		
+	},
+},
+

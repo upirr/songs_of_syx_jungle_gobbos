@@ -1,0 +1,5 @@
+INFO: {
+	NAME: "Balticrawler",
+	NAMES: "Balticrawlers",
+	DESC: "Balticrawlers are huge larva that prefers dark caves as its dwelling. It feeds on fungus that it sweeps up from the stone floor.",
+},

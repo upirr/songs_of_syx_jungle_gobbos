@@ -1,0 +1,14 @@
+REQUIREMENTS: {
+	COUNT: {
+		CRAFTED: {
+			AMOUNT: 100000,
+			SPAN: GAME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM_TYPE: {
+		WORKSHOP: 0.10,
+	},
+},

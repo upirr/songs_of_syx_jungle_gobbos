@@ -1,0 +1,22 @@
+INFO: {
+	NAME: "Hauler",
+	NAMES: "Haulers",
+	DESC: "Fetches a certain resource and hauls it to a location. Good for moving resources great distances. Haulers are free to construct, but must be placed on clear ground.",
+	WIKI: {
+		CATEGORY: "Logistics",
+		NAME: "Hauler",
+		TEXT: "Haulers is a small room/marker, that can be placed for free and without construction on unobstructed land. It employs haulers, and once you've selected a resource for it to fetch, the haulers will start hauling the resource to the location. The station has space for 96 resources. There is also the ability to enable 'fetch', in which case the haulers will also fetch resources from warehouses that has not fetch enabled on the particular resource.",
+	},
+},
+
+WORK: {
+	TITLE: "Hauler",
+	VERB: "Hauling",
+},
+
+ITEMS: [
+	{
+		NAME: "Hauling Station",
+		DESC: "",
+	},
+],

@@ -1,0 +1,310 @@
+MULTIPLIERS: {
+	PROSECUTION: 1,
+},
+
+
+EQUIP: {
+	CLOTHES: {
+		CITIZEN: 2.5,
+		EXPONENT: 0.7,
+	},
+},
+
+SERVICE: {
+
+},
+
+
+**death causes go here.
+DEATH: {
+	
+},
+
+BURIAL: {
+	DESECRATION: {
+		INVERTED: true,
+		CITIZEN: 3,
+	},
+},
+
+RELIGION: {
+	FAITH: {
+		CITIZEN: 3,
+		NOBLE: 3,
+		SLAVE: 2,
+	},
+	RELIGION_OPPOSITION: {
+		INVERTED: true,
+		CITIZEN: 2,
+		NOBLE: 0,
+		SLAVE: 0,
+	},
+},
+
+EDUCATION: {
+	EDUCATION: {
+	
+	},
+	INDOCTRINATION: {
+	
+	},
+},
+
+POPULATION: {
+	** the relative age of a group. 0 - PROPERTY: DEATH_AGE 
+	AGE: {
+		
+	},
+	
+	**the amount of nobles relative to group population. 
+	NOBLES: {
+		MULTIPLIER: 500,
+		CITIZEN: 1.0,
+	},
+	
+	**The population of a group relative to all population.
+	MAJORITY: {
+		CITIZEN: 5.5,
+	},
+	
+	**The amount of citizens that are currently immigrants relative to all population
+	IMMIGRANTS: {
+		CITIZEN: 1.0,
+		MULTIPLIER: 0.9,
+		INVERTED: true,
+	},
+	
+	**The amount of citizens that are native to the settlement
+	NATIVES: {
+		
+	},
+	
+	**The amount of citizens that are freed slaves.
+	FORMER_SLAVES: {
+		CITIZEN: 3.0,
+		MULTIPLIER: 3,
+		INVERTED: true,
+	},
+	
+	**The mercy value, given by law. Will slowly increase as you punish criminals by putting them in prison
+	MERCY: {
+		CITIZEN: 1,
+	},
+	
+	**The current law value
+	LAW: {
+		CITIZEN: 1,
+		SLAVE: 0.5,
+	},
+	
+	**Slaves of the same race
+	SLAVES_SELF: {
+		CITIZEN: 2.5,
+		INVERTED: true,	
+	},
+	
+	**Slaves in general
+	SLAVES_OTHER: {
+		CITIZEN: 0.5,
+		NOBLE: 0.5,
+	},
+	
+	SLAVES_FREED: {
+		CITIZEN: 2,
+	},
+	
+	**Murders and such
+	WRONGFUL_DEATHS: {
+		CITIZEN: 1,
+		INVERTED: true,
+	},
+},
+
+ENVIRONMENT: {
+	BUILDING_PREF: {
+		CITIZEN: 1.5,
+	},
+	CLIMATE: {
+		CITIZEN: 1.5,
+		SLAVE: 1,
+		NOBLE: 0,
+	},
+	OTHERS: {
+		CITIZEN: 1,
+		NOBLE: 0.5,
+		SLAVE: 1,
+	},
+	EXPOSURE_COLD: {
+		
+	},
+	EXPOSURE_HOT: {
+		
+	},
+
+	SQUARENESS: {
+
+	},
+	ROUNDNESS: {
+
+	},
+	NOISE: {
+		CITIZEN: 1,
+		INVERTED: true,
+	},
+	CANNIBALISM: {
+		CITIZEN: 3,
+		INVERTED: true,
+	},
+	UNBURRIED: {
+		CITIZEN: 1,
+		INVERTED: true,
+	},
+	RICHES: {
+		CITIZEN: 1.0,
+		NOBLE: 2.0,
+	},
+	ACCESS_ROAD: {
+		CITIZEN: 1.0,
+		SLAVE: 1,
+		NOBLE: 2,
+	},
+
+},
+
+ACCESS: {
+	LIGHT: {
+		CITIZEN: 1.0,
+		SLAVE: 0.5,
+		NOBLE: 2,
+	},
+},
+
+FOOD: {
+	STARVATION: {
+		CITIZEN: 3,
+		SLAVE: 3,
+		NOBLE: 3,
+		INVERTED: true,
+		MULTIPLIER: 5,
+	},
+	FOOD_PREFFERENCE: {
+		SLAVE: 0.5,
+		CITIZEN: 2,
+		NOBLE: 2,
+	},
+	FOOD_DAYS: {
+		CITIZEN: 2,
+		SLAVE: 1,
+	},
+	FOOD_RATIONS: {
+		CITIZEN: 6,
+		SLAVE: 2,
+		NOBLE: 3,
+		EXPONENT: 0.7,
+	},
+	DRINK_RATIONS: {
+		CITIZEN: 2.5,
+		SLAVE: 1,
+		NOBLE: 2,
+		EXPONENT: 0.7,		
+	},
+},
+
+HOME: {
+	HOUSED: {
+		CITIZEN: 2,
+		SLAVE: 1,
+		NOBLE: 2,
+		EXPONENT: 0.8,
+	},
+	FURNITURE: {
+		CITIZEN: 4,
+		SLAVE: 2,
+		NOBLE: 4,
+		EXPONENT: 1.3,	
+	},
+	SPACE: {
+		CITIZEN: 1,
+		SLAVE: 0,
+		NOBLE: 0,
+	},
+},
+
+
+WORK: {
+
+	RETIREMENT_AGE: {
+		CITIZEN: 1,
+	},
+	WORK_EXPERIENCE: {
+		
+	},
+	
+	EMPLOYED: {
+		CITIZEN: 1,
+	},
+	WORK_FULFILLMENT: {
+		CITIZEN: 3,
+	},
+	WORK_TIME: {
+		
+	},
+	
+	RETIREMENT: {
+		CITIZEN: 1,
+	},
+},
+
+BATTLE: {
+	COMBAT_TRAINING: {
+		
+	},
+	ARCHERY_TRAINING: {
+		
+	},
+	COMBAT_EXPERIENCE: {
+		
+	},
+	ENEMY_KILLS: {
+		CITIZEN: 0.5,
+	},
+
+	SOLDIERS: {
+		CITIZEN: 0.5,
+		SLAVE: 0,
+	},
+	RECRUITS: {
+		
+	},
+	ROUTING: {
+		
+	},
+},
+
+NEEDS: {
+	DIRTINESS: {
+
+	},
+	INJURIES: {
+		
+	},
+	EXHAUSTION: {
+		
+	},
+	CONSTIPATION: {
+		
+	},
+	SLEEPINESS: {
+		
+	},
+	HUNGER: {
+		
+	},
+	THIRST: {
+	
+	},
+},
+
+STORED: {
+
+},

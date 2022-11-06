@@ -1,0 +1,29 @@
+TECHS: [
+
+	{
+		NAME: "Bakery",
+		CATEGORY:"Refining",
+
+		DESC: "These golden steaming loaves are a massive step forward in feeding a large populace.
+
+		%r%%r%
+
+		(Grain can be stored for long periods of time compared to other food sources, but bread itself has a short shelf life.  Needs a supply of heat to operate.)
+		",
+	},
+
+	{
+		NAME: "Bakery Bonus",
+		CATEGORY:"Refining",
+
+		DESC: "Wheat, water, and yeast sounds like a simple process, but your bakers have many ways to further refine their craft.",
+	},
+
+	{
+		NAME: "Coal Fired Ovens",
+		CATEGORY:"Refining",
+
+		DESC: "Coal fired ovens operate with less fuel and more intense heat.  While not more efficient in its use of grain, it produces batches faster.",
+	},
+
+],

@@ -1,0 +1,8 @@
+POPULATION: 0,
+NOBLES: 0,
+BONUS: {
+
+},
+ROOMS: [
+
+],

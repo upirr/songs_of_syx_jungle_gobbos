@@ -1,0 +1,7 @@
+VERSION: "1.0",
+GAME_VERSION_MAJOR: 62,
+GAME_VERSION_MINOR: 28,
+NAME: "Jungle Gobbos",
+DESC: "Adds a new playable race of jungle goblins. Influenced primarily by goblins from WH:FB",
+AUTHOR: "Upir",
+INFO: "Jungle gobbos are small, numerous and xenophobic. Prefer jungles and like chaos.",

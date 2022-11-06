@@ -1,0 +1,87 @@
+
+**The requirements needed to unlock title
+REQUIREMENTS: {
+	
+	**various counters that are in-game. 
+	**There is no list of what's available, but you can write some gibberish and the error message will tell you what's there.
+	**If you as a modder have a request for a new count, let us know
+	COUNT: {
+		**key
+		ENEMIES_KILLED: {
+			AMOUNT: 10, **the target amount
+			IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+			SPAN: GAME, **Optional, default is GAME. Can be either GAME|ALL_TIME|ALL_TIME_HIGH.
+		},
+		**more clauses here...
+	},
+	
+	**A bunch of stats. Check out _STATS.txt in the race folder to get an idea of what's available. 
+	STATS: {
+		SERVICE: {
+			BATHOUSE_NORMAL: {
+				AMOUNT: 10, **the target amount
+				IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+				IS_INT: false, **Optional, default is false. if true, AMOUNT is treated as an int, if not AMOUNT is treated like a percentage 0-100.
+				CLASS: CITIZEN, **Optional, specify what class this applies to.
+				RACE: DONDORIAN, **OPtional, specify what race this applies to.
+			},
+			**more clauses here...
+		},
+		**more categories here...
+	},
+	
+	**What religions that are followed.
+	RELIGION: {
+		**keys are
+		TEMPLE_ATHURI: {
+			AMOUNT: 10, **the target amount
+			IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+			IS_INT: false, **Optional, default is false. if true, AMOUNT is treated as an int, if not AMOUNT is treated like a percentage 0-100.
+			CLASS: CITIZEN, **Optional, specify what class this applies to.
+			RACE: DONDORIAN, **OPtional, specify what race this applies to.
+		},
+	},
+	
+	**Current population counts. Note that this is an array.
+	POPULATION: [
+		{
+			AMOUNT: 1500, **the target amount
+			IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+			IS_INT: false, **Optional, default is false. if true, AMOUNT is treated as an int, if not AMOUNT is treated like a percentage 0-100.
+			CLASS: CITIZEN, **Optional, specify what class this applies to.
+			RACE: DONDORIAN, **OPtional, specify what race this applies to.
+		},
+	],
+	
+	**Current warehouse counts.
+	STORED: [
+		{
+			AMOUNT: 1500, **the target amount
+			IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+			IS_INT: false, **Optional, default is false. if true, AMOUNT is treated as an int, if not AMOUNT is treated like a percentage 0-100.
+			RESOURCE: GEM, **Optional, specify what resource this applies to.
+		},
+	],
+	
+	**Current happiness
+	HAPPINESS: [
+		{
+			AMOUNT: 100, **the target amount
+			IS_MAX: false, **Optional, if the target is minimum or maximum. Default is false.
+			IS_INT: false, **Optional, default is false. if true, AMOUNT is treated as an int, if not AMOUNT is treated like a percentage 0-100.
+			CLASS: CITIZEN, **Optional, specify what class this applies to.
+			RACE: DONDORIAN, **OPtional, specify what race this applies to.
+		},
+	],
+},
+
+**for the bonus clause, check out example in the technology folder
+BONUS: {
+	ROOM: {
+		
+	},
+	START: {
+		LANDING: 4.5,
+		KNOWLEDGE: 1000,
+	},
+},

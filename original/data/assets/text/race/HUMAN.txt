@@ -1,0 +1,17 @@
+NAME: "Human",
+NAMES: "Humans",
+POSSESSIVE: "Human",
+DESC: 
+"Humans, the last creation of the gods. Excel at intelligent jobs and are decent farmers."
+",
+DESC_LONG:
+"The humans were the final creation of the Astars, and unlike all their other creations they gave them free will and a shapable mind. this separates them from all the others. Initially men were immortal, but after the second war of the gods, this was removed as punishment for some to have aligned with the Chaos Lord.
+",
+
+ARMY_NAMES: [
+	"Shields of Vengeance",
+	"Swords of Tomorrow",
+	"Legends of Lake Hoth",
+	"The Inithil Rangers",
+	"Darth's Opulent Oppressors",
+],

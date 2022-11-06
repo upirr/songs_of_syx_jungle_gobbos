@@ -1,0 +1,4 @@
+INFO:{
+	DESC: "Some people like harmony and nature. Certain buildings emit harmony, such as trees.",
+	NAME:"Harmony",
+},

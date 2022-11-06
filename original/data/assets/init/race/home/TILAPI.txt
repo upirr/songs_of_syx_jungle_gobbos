@@ -1,0 +1,309 @@
+
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FLOOR: WOOD_SQUARE,
+		},
+		{
+			RESOURCES: {
+				WOOD: 5,
+			},
+			FLOOR: WOOD,
+		},
+	],
+
+	CARPET_COMBO: [
+		{
+			RESOURCES: {
+				LEATHER: 3,
+				FABRIC: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_CARPETS: 6,
+			],
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BED: 2,
+			],
+		},
+
+		{
+			RESOURCES: {
+				FURNITURE: 4,
+				LEATHER: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			SHADOW_SPRITE: false,
+			FRAMES : [
+				BED: 6,
+			],
+		},
+	],
+	TABLE_COMBO: [
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 3,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				COMBO_TABLES: 0,
+				COMBO_TABLES: 1,
+			],
+		},
+	],
+
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 6,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 1,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+			],
+		},
+		{
+			RESOURCES: {
+				FURNITURE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 1,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				POTTERY: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 4,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				LIVESTOCK: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				SCIENCE: 11,
+				SCIENCE: 12,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+		{
+			RESOURCES: {
+				WOOD: 2,
+			},
+			FLOOR: WOOD_SQUARE,
+		},
+	],
+
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				BED: 0,
+			],
+		},
+	],
+	CARPET_2x2: [
+
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				WOOD: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 0,
+			],
+		},
+	],
+	STORAGE_1x1: [
+		{
+			RESOURCES: {
+				FURNITURE: 2,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 2,
+			],
+		},
+	],
+	CHAIR_1x1: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				CHAIRS: 0,
+			],
+		},
+	],
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				POTTERY: 1,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 2,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				STORAGE: 4,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+	
+	],
+},

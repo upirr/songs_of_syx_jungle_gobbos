@@ -1,0 +1,3 @@
+SPRITE: Wood,
+COLOR_MASK: [255,255,255,],
+

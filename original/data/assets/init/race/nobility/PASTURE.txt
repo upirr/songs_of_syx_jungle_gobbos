@@ -1,0 +1,10 @@
+BONUS: {
+	ROOM: {
+		
+	},
+	ROOM_TYPE: {
+		PASTURE: 0.2,
+	},
+},
+COLOR: [80,80,20,],
+

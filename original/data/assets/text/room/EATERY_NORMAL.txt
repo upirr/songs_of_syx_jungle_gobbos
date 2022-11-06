@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Eatery",
+	NAMES: "Eateries",
+	DESC: "Eatery will use pots and raw foods to create tasty meals. Subjects will also get a chance to pick what they want and thus improve food preference. Build your eateries close to a warehouse with food for it to work well.",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Eatery",
+		TEXT: "Eatery will use pots and raw foods to create tasty meals. Subjects will also get a chance to pick what they want and thus improve food preference. Build your eateries close to a warehouse with food for it to work well.",
+	},
+},
+
+WORK: {
+	TITLE: "Cook",
+	VERB: "Making meals",
+},
+
+STATS: [
+
+	{
+		NAME: "Storage",
+		DESC: "The amount of meals that can be stored",
+	},
+	{
+		NAME: "Workers",
+		DESC: "An approximation of how many workers that will be required",
+	},
+],
+
+ITEMS: [
+	
+	{
+		NAME: "Storage",
+		DESC: "Increases storage capacity",
+	},
+],
+
+SERVICE: {
+	NAME: "Meal",
+	NAMES: "Meals",
+	DESC: "The amount of meals to be eaten",
+	VERB: "Grabbing a bite to eat",
+},

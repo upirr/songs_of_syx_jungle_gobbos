@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Awe",
+	DESC: "Awe affects most people positively, and enforces their obedience to you.",
+},

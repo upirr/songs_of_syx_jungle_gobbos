@@ -1,0 +1,2 @@
+NAME: "The Leader",
+DESC: "Gained by having 1500 happy people and increases your starting population and supplies of new games.",

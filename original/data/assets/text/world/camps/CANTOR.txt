@@ -1,0 +1,8 @@
+NAMES: [
+	"Pillars of {0}",
+	"Shrine to {0}",
+	"Refuge of {0}",
+	"Bastion of {0}",
+	"Altar of {0}",
+	"Bastion of {0}",
+],

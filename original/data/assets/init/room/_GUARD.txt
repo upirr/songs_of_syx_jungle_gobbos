@@ -1,0 +1,42 @@
+TYPE: GUARD,
+RESOURCES: [WOOD,STONE_CUT,ARMOUR,],
+AREA_COSTS: [0.0,0.0,0.0,],
+FLOOR: DIRT,
+MINI_COLOR: [100,10,10,],
+
+ITEMS: [
+	{
+		COSTS: [24,18,14,],
+		STATS: [],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	USES_TOOL: false,
+	NIGHT_SHIFT: true,
+	FULLFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0,
+},
+
+FORTIFICATION: WOOD,
+
+ENVIRONMENT_EMIT: {
+	LAW: {
+		RADIUS: 1.0,
+		VALUE: 0.75,
+	},
+},
+
+SPRITES: {
+	TORCH_2X2: {
+		ROTATES: false,
+		SHADOW_LENGTH: 5,
+		FRAMES: [
+			TORCH: 0,
+		],
+	},
+},
+
+

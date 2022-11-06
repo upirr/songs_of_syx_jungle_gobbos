@@ -1,0 +1,42 @@
+TECHS: [
+
+	{
+		LEVEL_COST: 100,
+
+		TREE_ORDER: 5150,
+
+		ROOMS: [
+			_MONUMENT_TREE,
+		],
+	},
+
+	{
+		LEVEL_COST: 300,
+
+		TREE_ORDER: 5150,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_DECORATION0: 1,
+		},			
+
+		ROOMS: [
+			_TORCH,
+		],
+	},
+
+	{
+		LEVEL_COST: 900,
+
+		TREE_ORDER: 5150,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_DECORATION1: 1,
+		},		
+
+		ROOMS: [
+			MONUMENT_PILLAR,
+			MONUMENT_STATUE,
+		],
+	},
+
+],

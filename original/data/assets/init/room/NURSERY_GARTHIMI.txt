@@ -1,0 +1,84 @@
+TYPE: NURSERY,
+RESOURCES: [MEAT,WOOD,STONE,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: ORGANIC_DARK,
+MINI_COLOR: [0,255,255,],
+
+ITEMS: [
+	{
+		COSTS: [2,2,2,],
+		STATS: [1,0,0,],
+	},
+	{
+		COSTS: [10,10,10,],
+		STATS: [0,0,4,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: SQUISH,
+	USES_TOOL: false,
+	FULLFILLMENT: 0.0,
+	EDUCATION_FACTOR: 0,
+},
+
+INDUSTRY: {
+	IN: {
+		MEAT: 0.5,
+	},
+	OUT: {
+		
+	},
+},
+
+RACE: GARTHIMI,
+INCUBATION_DAYS: 2, 
+
+SPRITES: {
+	1x2_CRIB: {
+		FPS: 0,
+		SHADOW_LENGTH: 0,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: true,
+		FRAMES: [
+			DIRT: 0,
+		],
+	},
+	2x2_DECOR: {
+		FPS: 5,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: false,
+		FRAMES: [
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 3,
+			ORGANIC_BLOB: 2,
+			ORGANIC_BLOB: 2,
+			ORGANIC_BLOB: 1,
+			ORGANIC_BLOB: 0,
+			ORGANIC_BLOB: 1,
+			ORGANIC_BLOB: 1,
+			ORGANIC_BLOB: 2,
+		],
+	},
+	1x1_TABLE: {
+		FPS: 0,
+		SHADOW_LENGTH: 3,
+		SHADOW_HEIGHT: 0,
+		SHADOW_SPRITE: false,
+		ROTATES: false,
+		FRAMES: [
+			TABLES: 2,
+		],
+	},
+},

@@ -1,0 +1,17 @@
+REQUIREMENTS: {
+	COUNT: {
+		FREED_SLAVES: {
+			AMOUNT: 2000,
+			SPAN: GAME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	BEHAVIOUR: {
+		HAPPINESS: 0.05,
+	},
+},

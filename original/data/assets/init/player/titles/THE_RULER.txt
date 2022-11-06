@@ -1,0 +1,22 @@
+REQUIREMENTS: {
+	POPULATION: [
+		{
+			AMOUNT: 100,
+		},
+	],
+	HAPPINESS: [
+		{
+			AMOUNT: 100,
+		},
+	],
+},
+
+
+BONUS: {
+	ROOM: {
+		
+	},
+	START: {
+		LANDING: 1,
+	},
+},

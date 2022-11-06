@@ -1,0 +1,65 @@
+RESOURCES: [STONE,FURNITURE,TOOL,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: [173,107,165,],
+
+ITEMS: [
+	{
+		COSTS: [0,4,2,],
+		STATS: [1,0.15,],
+	},
+],
+
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: FABRIC,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.0,
+},
+
+INDUSTRY: {
+	IN: {
+		OPIATES: 1.0,
+		FABRIC: 1.0,
+	},
+},
+
+SERVICE: {
+
+},
+
+SPRITES: {
+	BED_UNMADE_1X2: {
+		ROTATES: true,
+		SHADOW_LENGTH:4,
+		FRAMES: [
+			BED:8,
+		],
+	},
+	BED_MADE_1X2: {
+		ROTATES: true,
+		SHADOW_LENGTH:4,
+		FRAMES: [
+			BED:3,
+		],
+	},
+	TABLE_COMBO: {
+		ROTATES: true,
+		SHADOW_LENGTH:4,
+		COLOR: {R:255,G:206,B:173,},
+		FRAMES: [
+			COMBO_TABLES:3,
+		],
+	},
+	TABLE_ONTOP_1X1: {
+		ROTATES: false,
+		SHADOW_LENGTH:1,
+		FRAMES: [
+			BUTCHER:0,
+			BUTCHER:1,
+		],
+	},
+},
+
+

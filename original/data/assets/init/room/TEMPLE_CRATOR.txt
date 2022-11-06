@@ -1,0 +1,70 @@
+TYPE: TEMPLE,
+
+**RESOURCE/ANIMAL/HUMAN
+SACRIFICE_TYPE: ANIMAL,
+**ONLY USED WHEN RESOURCE
+**SACRIFICE_RESOURCE: SITHILON,
+**How many sacrifices per day.
+SACRIFICE_TIME: 0.2,
+
+RESOURCES: [WOOD,FURNITURE,STONE_CUT,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: DIRT,
+FLOOR_PATH: WOOD_SQUARE,
+MINI_COLOR: [173,107,165,],
+
+ITEMS: [
+	{
+		COSTS: [20,16,16,],
+		STATS: [3,8,0,0,0,],
+	},
+	{
+		COSTS: [2,1,1,],
+		STATS: [0,0,0.5,0,0,],
+	},
+	{
+		COSTS: [2,1,1,],
+		STATS: [0,0,0.5,0,0,],
+	},
+	{
+		COSTS: [8,4,4,],
+		STATS: [0,0,2,0,0,],
+	},
+	{
+		COSTS: [2,0,0,],
+		STATS: [0,0,0.125,0,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: LIBRARY,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.0,
+},
+
+SERVICE: {
+	SOUND: FART,
+},
+
+RELIGION: {
+
+	RACE_DEFAULT_INCLINATION: 0.5,
+	COLOR: [127,74,39,],
+	BONUS: {
+		ROOM: {
+		
+		},
+		ROOM_TYPE: {
+			FARM: 0.1,
+			PASTURE: 0.05,
+		},
+	},
+	OPPOSITION: {
+		TEMPLE_ATHURI: 0,
+		TEMPLE_AMINION: 1,
+		TEMPLE_SHMALOR: 1,
+	},
+},

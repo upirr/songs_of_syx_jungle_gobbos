@@ -1,0 +1,8 @@
+BONUS: {
+	ROOM: {
+		MINE_SITHILON: 0.25,
+		MINE_GEM: 0.25,
+	},
+},
+COLOR: [80,10,10,],
+

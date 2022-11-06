@@ -1,0 +1,8 @@
+DECLINE_VALUE: 1.0,
+BONUS_MISC: {
+	LAW: 0.5,	
+},
+
+STANDING: {
+
+},

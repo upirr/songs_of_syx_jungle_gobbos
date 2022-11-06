@@ -1,0 +1,8 @@
+BONUS: {
+	ROOM: {
+		REFINER_SMELTER: 0.15,
+		WORKSHOP_SMITHY: 0.15,
+	},
+},
+COLOR: [80,80,10,],
+

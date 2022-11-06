@@ -1,0 +1,2 @@
+NAME: "The bleeding fever",
+DESC: "The bleeding fever is a very deadly disease that has been around for eons. It's very rare, and thought extinct on many occasions. It spreads poorly, but mostly because it tends to kill all its hosts. A quarantine should be ordered immediately",

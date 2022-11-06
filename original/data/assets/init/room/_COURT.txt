@@ -1,0 +1,29 @@
+RESOURCES: [WOOD,FURNITURE,GEM,],
+AREA_COSTS: [0.2,0,0,],
+FLOOR: STONE_CHECK,
+MINI_COLOR: [70,70,70,],
+ITEMS: [
+	{
+		COSTS: [0,10,20,],
+		STATS: [1,1,0.0,],
+	},
+	{
+		COSTS: [1,1,0,],
+		STATS: [0,0,0.05,],
+	},
+],
+
+ENVIRONMENT_EMIT: {
+	LAW: {
+		RADIUS: 1.0,
+		VALUE: 1.0,
+	},
+},
+
+WORK: {
+	SHIFT_OFFSET: 0.1,
+	SOUND: FABRIC,
+	USES_TOOL: false,
+	FULLFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0,
+},

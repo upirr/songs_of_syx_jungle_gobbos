@@ -1,0 +1,40 @@
+TYPE: FISHERY,
+RESOURCES: [STONE,FURNITURE,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: [74,119,14,],
+
+ITEMS: [
+	{
+		COSTS: [1,0,],
+		STATS: [0,1,0,0,],
+	},
+	{
+		COSTS: [2,2,],
+		STATS: [0,0,0.5,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: AXE,
+	USES_TOOL: true,
+	FULFILLMENT: 0,
+	EDUCATION_FACTOR: 0.25,
+    ACCIDENTS_PER_YEAR: 0.10,		
+},
+
+INDUSTRY: {
+	OUT: {
+		WOOD: 6.0,
+	},
+},
+
+DEGRADE_RATE: 0.2,
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},

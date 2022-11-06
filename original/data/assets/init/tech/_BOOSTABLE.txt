@@ -1,0 +1,163 @@
+**Here is all things that can be boosted through the BONUS clause. Below are the pre-defined values that all races comes with, unless overwritten.
+
+ROOM: {
+	**all room industries, dynamically defined through room definitions
+},
+
+**Dynamically loaded as well. Room type is listed at the top of a room init file. Example is "WORKSHOP". A room type will
+** resolve into all rooms of that type ^^.
+ROOM_TYPE: {
+	
+},
+
+**All equippables will be listed here. They refer to max equip level.
+EQUIP: {
+
+},
+
+**This is the default status for all techs declared here. All fields can be overwritten below.
+DEFAULT: {
+	RACE: 1.0, **The default multiplier for all races. Will be overwritten by race init files if declared.
+	IS_MULTIPLIER: true, **determines if this boost's race multiplier is in fact a multiplier, or is added trough addition
+},
+
+PHYSICS: {
+	STAMINA: {
+		RACE: 1.0,
+		IS_MULTIPLIER: false,
+	},
+	SPEED: {
+		RACE: 4.5,
+		IS_MULTIPLIER: false,
+	},
+	MASS: {
+		RACE: 80,
+		IS_MULTIPLIER: false,
+	},
+	ACCELERATION: {
+		RACE: 3,
+		IS_MULTIPLIER: false,
+	},
+	RESISTANCE_HOT: {
+		RACE: 0.4,
+		IS_MULTIPLIER: false,
+	},
+	RESISTANCE_COLD: {
+		RACE: 0.4,
+		IS_MULTIPLIER: false,
+	},
+	DEATH_AGE: {
+		RACE: 100,
+		IS_MULTIPLIER: false,
+	},
+	HEALTH: {
+		RACE: 1.0,
+		IS_MULTIPLIER: false,
+	},
+},
+
+BATTLE: {
+	ARMOUR: {
+		RACE: 0,
+		IS_MULTIPLIER: false,
+	},
+	PIERCE_DAMAGE: {
+		RACE: 0,
+		IS_MULTIPLIER: false,
+	},
+	BLUNT_DAMAGE: {
+		RACE: 40.0,
+		IS_MULTIPLIER: true,
+	},
+	OFFENCE_SKILL: {
+		RACE: 0.2,
+		IS_MULTIPLIER: false,
+	},
+	DEFENCE_SKILL: {
+		RACE: 0.2,
+		IS_MULTIPLIER: false,
+	},
+	RANGED_SKILL: {
+		RACE: 0.1,
+		IS_MULTIPLIER: false,
+	},
+	MORALE: {
+		RACE: 1.0,
+		IS_MULTIPLIER: true,
+	},
+},
+
+BEHAVIOUR: {
+	SKINNYDIPPING: {
+		RACE: 0.8,
+	},
+	LAWFULNESS: {
+		RACE: 0.5,
+	},
+	SUBMISSION: {
+		RACE: 1.0,
+	},
+	HAPPINESS: {
+		RACE: 1.0,
+	},
+},
+
+RATES: {
+	DEFECATE: {
+		RACE: 0.25,
+	},
+	SOIL: {
+		RACE: 0.25,
+	},
+	HUNGER: {
+		RACE: 0.5,
+	},
+	THIRST: {
+		RACE: 0.125,
+	},
+	SLEEP: {
+		RACE: 0.25,
+	},
+	PIETY: {
+		RACE: 0.125,
+	},
+	LEARNING: {
+		RACE: 1.0,
+	},
+	NEUROTICISM: {
+		RACE: 0.05,
+	},
+	DOCTOR: {
+		RACE: 0.125,
+	},
+},
+
+CIVIC: {
+	MAINTENANCE: {
+		RACE: 0.0,
+		IS_MULTIPLIER: false,
+	},
+	TRADE: {
+		RACE: 0.0,
+		IS_MULTIPLIER: false,
+	},
+	SPOILAGE: {
+		RACE: 0.0,
+		IS_MULTIPLIER: false,
+	},
+	ACCIDENT: {
+		RACE: 0.0,
+		IS_MULTIPLIER: false,
+	},
+},
+
+START: {
+	LANDING: {
+		RACE: 0,
+		IS_MULTIPLIER: false,
+	},
+	KNOWLEDGE: {
+		RACE: 0,
+		IS_MULTIPLIER: false,
+	},
+},

@@ -1,0 +1,17 @@
+REQUIREMENTS: {
+	COUNT: {
+		ENEMIES_KILLED: {
+			AMOUNT: 40000,
+			SPAN: GAME,
+		},
+	},
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	BATTLE: {
+		DEFENCE_SKILL: 0.10,
+	},
+},

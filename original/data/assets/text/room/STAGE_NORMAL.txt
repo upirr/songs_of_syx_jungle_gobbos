@@ -1,0 +1,47 @@
+INFO: {
+	NAME: "Stage",
+	NAMES: "Stages",
+	DESC: "A stage allows subjects to listen to a tune, or see a play. A stage is only active when manned. Bigger stages offer more quality.",
+},
+
+WORK: {
+	TITLE: "Actor",
+	VERB: "Acting",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of actors required.",
+	},
+	{
+		NAME: "Spectators",
+		DESC: "The amount of spectators.",
+	},
+	{
+		NAME: "Quality",
+		DESC: "The quality of this stage.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Booth",
+		DESC: "Basic Stage. Will give 50% quality",
+	},
+	{
+		NAME: "Bandstand",
+		DESC: "Medium Stage. Will give 65% quality",
+	},
+	{
+		NAME: "Pavilion",
+		DESC: "Grand Stage. Will give 100% quality",
+	},
+],
+
+SERVICE: {
+	NAME: "Stage",
+	NAMES: "Stages",
+	DESC: "Stages allow subjects to listen to a tune, or see a play.",
+	VERB: "Watching a performance",
+},

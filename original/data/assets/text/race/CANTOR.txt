@@ -1,0 +1,20 @@
+NAME: "Cantor",
+NAMES: "Cantors",
+POSSESSIVE: "Cantorian",
+DESC: 
+"Cantors are mythical giants. The few of them that remain are primarily found in the north. They excel at battle, but are difficult to obtain and please."
+",
+DESC_LONG:
+"
+Cantors were the protectors of the Istari themselves. They fought alongside them from the first war to the final War of the Gods. The few that survived retreated north. Having one in your city is a privilege and they excel at warring and are very religious. Don't be thoughtless with their lives, as there are not many of them left. They have a great distaste for humans.
+",
+
+ARMY_NAMES: [
+	"Ashai's Chariot",
+	"Ashai's Wrath",
+	"Vengeance of the Astar",
+	"Thulks hammers",
+	"Sledge of light",
+	"Hammers of Thont",
+],
+

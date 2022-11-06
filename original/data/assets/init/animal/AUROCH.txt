@@ -1,0 +1,28 @@
+SPEED: 4,
+HEIGHT: 5,
+MASS: 110,
+
+SOUND: SHEEP,
+
+SPRITE: Auroch,
+COLOR: [255,255,255,],
+
+CARAVAN: true,
+
+RESOURCES: [MEAT, LEATHER,],
+RESOURCE_AMOUNT: [0.8, 0.5,],
+
+CLIMATE: {
+	COLD: 0.8,
+	TEMPERATE: 1,
+	HOT: 0,
+},
+
+TERRAIN: {
+	FOREST: 0.5,
+	WET: 0.5,
+	NONE: 1.0,
+},
+
+PACK: true,
+GRAZES: true,

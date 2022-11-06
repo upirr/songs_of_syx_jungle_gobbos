@@ -1,0 +1,22 @@
+TECHS: [
+
+	{
+		NAME: "Brewery",
+		CATEGORY:"Refining",
+
+		DESC: "Bubbling wort and distilling vats unlock a blessing and a curse all bottled into one.
+
+		%r%%r%
+
+		(Drink rations can be set in the species -> access tab.  Very high rations of alcohol can have negative health and work impacts on your people.)
+		",
+	},
+
+	{
+		NAME: "Brewery Bonus",
+		CATEGORY:"Refining",
+
+		DESC: "With more study into the fermentation process and keeping a properly clean environment, your brewers can greatly increase productivity.",
+	},
+
+],

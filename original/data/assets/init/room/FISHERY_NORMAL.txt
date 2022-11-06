@@ -1,0 +1,35 @@
+TYPE: FISHERY,
+RESOURCES: [WOOD,STONE,],
+AREA_COSTS: [0,0,],
+MINI_COLOR: [74,119,14,],
+
+ITEMS: [
+	{
+		COSTS: [1,0,],
+		STATS: [0,0,1,0,],
+	},
+	{
+		COSTS: [2,2,],
+		STATS: [0,0,0,1,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: SQUISH,
+	USES_TOOL: true,
+	FULFILLMENT: 0.0,
+	INDOCTRINATION_FACTOR: 0.25,
+	CLIMATE_BONUS: {
+		COLD: 1.1,
+	},
+},
+
+DEGRADE_RATE: 0.2,
+
+INDUSTRY: {
+	OUT: {
+		FISH: 2.5,
+	},
+},

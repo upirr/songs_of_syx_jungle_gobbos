@@ -1,0 +1,51 @@
+TYPE: REFINER,
+RESOURCES: [STONE,WOOD,],
+AREA_COSTS: [0.2,0,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: [226,195,38,],
+
+ITEMS: [
+	{
+		COSTS: [2,6,],
+		STATS: [1.2,0,1,],
+	},
+	{
+		COSTS: [1,1,],
+		STATS: [0,0,0,],
+	},
+	{
+		COSTS: [0.5,1,],
+		STATS: [0,0.5,0,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: MACHINE,
+	USES_TOOL: true,
+	FULFILLMENT: 0.2,
+	EDUCATION_FACTOR: 0.15,
+	ACCIDENTS_PER_YEAR: 0.3,
+},
+
+INDUSTRIES: [
+	{
+		INDUSTRY: {
+			IN: {
+				COAL: 3,
+				ORE: 3,
+			},
+			OUT: {
+				METAL: 3,
+			},
+		},
+	},
+],
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},

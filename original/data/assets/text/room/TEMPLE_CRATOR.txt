@@ -1,0 +1,73 @@
+INFO: {
+	NAME: "Temple of Crator",
+	NAMES: "Temples of Crator",
+	DESC: "Crator Astari, is the foremost creator of the Astari. He created many of the species of Syx and its animals and fauna. He was later tempted by Aminon, god of chaos, and forced to create foul creatures to do the bidding of chaos. Accepts animals (livestock) as offerings.",
+	WIKI: {
+		CATEGORY: "Religion",
+		NAME: "Crator",
+		TEXT: "Crator Astari, is the foremost creator of the Astari.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Priests",
+		DESC: "The amount of priests that need to be staffed.",
+	},
+	{
+		NAME: "Worshippers",
+		DESC: "The capacity of worshippers the will be available.",
+	},
+	{
+		NAME: "Decoration",
+		DESC: "The amount of decoration. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Grandeur",
+		DESC: "The sheer size of the room. The gods like it big. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Space",
+		DESC: "No one likes a cluttered temple. This is the area divided by the amount of worshippers. Will boost the temple efficiency.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Altar",
+		DESC: "The place of rituals. Adds Priest and worshipper capacity.",
+	},
+	{
+		NAME: "Decorations",
+		DESC: "Shrines and decorations to the honour of deity. Increases decoration",
+	},
+	{
+		NAME: "Torch",
+		DESC: "A torch. Increases decoration",
+	},
+	{
+		NAME: "Relief",
+		DESC: "A relief that increases decoration.",
+	},
+	{
+		NAME: "Pathway",
+		DESC: "Pathways to increase decoration.",
+	},
+],
+
+WORK: {
+	TITLE: "Priests",
+	VERB: "Worshipping",
+},
+
+SERVICE: {
+	NAME: "Temple",
+	NAMES: "Temples",
+	VERB: "Worshipping",
+},
+
+RELIGION: {
+	NAME: "Cratorism",
+	DESC: "Followers of Crator, the foremost creator of the Astari. Promotes farming and husbandry. Temples accepts animals as offerings.",
+},

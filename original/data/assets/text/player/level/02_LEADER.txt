@@ -1,0 +1,3 @@
+MALE: "Leader",
+FEMALE: "Leader",
+DESC: "With more people following you, they now refer to you as their leader.  You'd better train up a fighting force or bandits and traitors will smell weakness.  %r%%r%A powerful noble (the first of many, gods willing) joins your house to oversee affairs you deem worthy.",

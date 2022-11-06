@@ -1,0 +1,2 @@
+NAME: "The Ruler",
+DESC: "Gained by having 100 happy people and increases your starting population and supplies of new games.",

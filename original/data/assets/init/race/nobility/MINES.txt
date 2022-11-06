@@ -1,0 +1,10 @@
+BONUS: {
+	ROOM: {
+		
+	},
+	ROOM_TYPE: {
+		MINE: 0.15,
+	},
+},
+COLOR: [80,10,10,],
+

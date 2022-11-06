@@ -1,0 +1,23 @@
+REQUIREMENTS: {
+	POPULATION: [
+		{
+			AMOUNT: 1500,
+		},
+	],
+	HAPPINESS: [
+		{
+			CLASS: CITIZEN,
+			AMOUNT: 25,
+		},
+	],
+},
+
+BONUS: {
+	ROOM: {
+		
+	},
+	START: {
+		LANDING: 4.5,
+		KNOWLEDGE: 1000,
+	},
+},

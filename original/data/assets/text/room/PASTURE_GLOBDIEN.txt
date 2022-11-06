@@ -1,0 +1,34 @@
+INFO: {
+	NAME: "Globdien Pasture",
+	NAMES: "Globdien Pastures",
+	DESC: "Breeds globiens that will produce meat and eggs.
+	They are filled with livestock that in turn populate the pasture.",
+},
+
+BONUS: {
+	NAME: "Globdien Breeding",
+	DESC: "Makes Globdiens fatter and plumper",
+},
+
+WORK: {
+	TITLE: "Herder",
+	VERB: "Herding",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers that will be needed. This is dependant on the amount of animals",
+	},
+	{
+		NAME: "Livestock",
+		DESC: "The maximum amount of animals this pasture can hold. Increased by placing the room over high fertility regions, or increasing its size",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Gate",
+		DESC: "Entrance and resource storage for pasture.",
+	},
+],

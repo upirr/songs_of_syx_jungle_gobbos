@@ -1,0 +1,47 @@
+INFO: {
+	NAME: "Administration",
+	NAMES: "Administrations",
+	DESC: "Where administration is produced and stored and maintained. Administration is used to upgrade your kingdom. Each work station can roughly produce 5 admin points. This can be further boosted by the skill of individual workers and other bonuses.",
+	WIKI: {
+		CATEGORY: "Administration",
+		NAME: "Administration room",
+		TEXT: "In the administration room, clerks use paper to write important letters and decrees, giving you administration points to spend on upgrading your kingdom. Administration needs to be maintained and new points produced continuously, or else you kingdom will fall apart.",
+	},
+},
+
+BONUS: {
+	NAME: "Administration Boost",
+	DESC: "Increases the Administration production.",
+},
+
+WORK: {
+	TITLE: "Clerk",
+	VERB: "Administering",
+},
+
+STATS: [
+	{
+		NAME: "Capacity",
+		DESC: "A rough estimate of how much administration that can be produced and stored.",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "The efficiency greatly improves administration production.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Clerk Station",
+		DESC: "Where clerks work.",
+	},
+	{
+		NAME: "Shelf",
+		DESC: "Increases the efficiency of the room.",
+	},
+	{
+		NAME: "Carpet",
+		DESC: "Also increases the efficiency of the room.",
+	},
+],
+

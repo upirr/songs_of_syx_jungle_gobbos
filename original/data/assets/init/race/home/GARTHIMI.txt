@@ -1,0 +1,132 @@
+SLAVE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: ORGANIC_DARK,
+		},
+	],
+
+
+},
+
+CITIZEN: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: ORGANIC_DARK,
+		},
+	],
+
+	NICKNACK_A_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 2,
+			},
+			FPS: 5,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 0,
+				ORGANIC_BLOB: 1,
+				ORGANIC_BLOB: 2,
+				ORGANIC_BLOB: 1,
+				ORGANIC_BLOB: 1,
+			],
+		},
+	],
+	NICKNACK_B_1x1: [
+		{
+			RESOURCES: {
+				CLAY: 4,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				ORGANIC_BLOB: 3,
+			],
+		},
+	],
+	NIGHTSTAND_1x1: [
+		{
+			RESOURCES: {
+				STONE: 3,
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 1,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				TABLES: 2,
+			],
+		},
+	],
+	BED_1x2: [
+		{
+			RESOURCES: {
+				
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 0,
+			SHADOW_HEIGHT: 0,
+			FRAMES : [
+				DIRT: 0,
+			],
+		},
+	],
+},
+
+NOBLE: {
+	FLOORS: [
+		{
+			RESOURCES: {
+			
+			},
+			FLOOR: DIRT,
+		},
+	],
+	BED_MASTER_2x2: [
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 4,
+			SHADOW_HEIGHT: 4,
+			ROTATES: true,
+			FRAMES : [
+				BEDS: 0,
+			],
+		},
+	],
+	STATUE_2x2: [ 
+		{
+			RESOURCES: {
+			
+			},
+			FPS: 0,
+			SHADOW_LENGTH: 8,
+			SHADOW_HEIGHT: 8,
+			SHADOW_SPRITE: true,
+			ROTATES: true,
+			FRAMES : [
+				MONUMENT: 1,
+			],
+		},
+	],
+},
+

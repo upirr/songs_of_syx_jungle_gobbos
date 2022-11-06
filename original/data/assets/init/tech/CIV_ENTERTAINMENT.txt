@@ -1,0 +1,53 @@
+TECHS: [
+
+	{		
+		LEVEL_COST: 50,
+
+		TREE_ORDER: 5120,
+
+		ROOMS: [
+			SPEAKER_NORMAL,
+		],
+	},
+
+	{
+		LEVEL_COST: 300,
+
+		TREE_ORDER: 5120,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_ENTERTAINMENT0: 1,
+		},
+
+		ROOMS: [
+			STAGE_NORMAL,
+		],		
+	},
+
+	{
+		LEVEL_COST: 1800,
+
+		TREE_ORDER: 5120,
+
+		REQUIRES_TECH_LEVEL: {
+			CIV_LAW1: 1,
+			CIV_ENTERTAINMENT1: 1,
+		},
+
+		ROOMS: [
+			ARENA_NORMAL,
+		],		
+	},
+
+	{
+		LEVEL_COST: 1200,
+
+		TREE_ORDER: 5120,
+
+		ROOMS: [
+			RESTHOME_NORMAL,
+		],		
+	},
+
+],
+

@@ -1,0 +1,2 @@
+NAME: "Glutton",
+DESC: "Someone who likes to eat",

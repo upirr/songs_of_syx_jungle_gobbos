@@ -1,0 +1,19 @@
+NAME: "Dondorian",
+NAMES: "Dondorians",
+POSSESSIVE: "Dondorian",
+DESC: 
+"Dondorians sturdy and stubborn. Doesn't care much for farming, but excel at mining and enjoy refinement and is sturdy in battle."
+",
+DESC_LONG:
+"Dondorians aren't born, but created by the gods themselves, or so it is believed. They pop into existence at the slopes of Mount Cerebus, already fully grown. They wander out of the 
+dense forest and through the surrounding fields in a sort of trance. No one has actually seen the creation process, but there are talks of bright flashes in the night inside the thick and dense forest. 
+From the moment of their strange birth, their will and determination is set in stone. They live for many hundreds of years and some are believed to have existed since the War of the Gods, though their memory of that time is clouded and fragmented. They are far from dumb, but lack the imagination of their human cousins. Crafting, meat eating and waging war against Garthimi are among their favourite occupations.%r%%r%
+Their favourite foods are Bread, Fish, and Mushrooms.
+",
+
+ARMY_NAMES: [
+	"Krull's merry band",
+	"Sons of Krull",
+	"Swords of Ditheria",
+	"Sithilon Hammers",
+],

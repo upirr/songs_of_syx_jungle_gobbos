@@ -1,0 +1,18 @@
+INFO: {
+	NAME: "Ore Mine",
+	NAMES: "Ore Mines",
+	DESC: "Mines extract minerals from the ground. It's efficiency is determined by the density of the minerals along with the auxiliary items you place.",
+},
+
+
+BONUS: {
+	NAME: "Ore Mining",
+	DESC: "Increases the output of your ore miners.",
+},
+
+WORK: {
+	TITLE: "Ore Miner",
+	VERB: "Mining ore",
+},
+
+

@@ -1,0 +1,2 @@
+NAME: "The White Shimmer",
+DESC: "Victims of the white shimmer suffer high fevers and sometimes dilerium. It is highly contagious, but fortunately most infected recover within a few days.",

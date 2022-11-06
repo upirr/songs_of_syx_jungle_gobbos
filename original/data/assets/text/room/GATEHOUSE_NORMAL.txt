@@ -1,0 +1,17 @@
+INFO: {
+	NAME: "Gatehouse",
+	NAMES: "Gatehouses",
+	DESC: "Gatehouses lets your subjects pass freely, while holding off enemies. They are a bit weaker than walls, but still gives you enough time to bombard the enemy.",
+},
+
+
+STATS: [
+
+],
+
+ITEMS: [
+	{
+		NAME: "Gatehouse",
+		DESC: "Hinders enemies",
+	},
+],

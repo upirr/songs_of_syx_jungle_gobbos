@@ -1,0 +1,5 @@
+CLIMATE: {
+	COLD: 0.6,
+	TEMPERATE: 1.0,
+	HOT: 0.75,
+},

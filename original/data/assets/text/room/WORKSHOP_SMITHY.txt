@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Smithy",
+	NAMES: "Smithies",
+	DESC: "Workshop that forges tools or weapons from coal and metal.",
+},
+
+BONUS: {
+	NAME: "Metallurgy",
+	DESC: "Increases effectiveness of smithies",
+},
+
+WORK: {
+	TITLE: "Blacksmith",
+	VERB: "Forging",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

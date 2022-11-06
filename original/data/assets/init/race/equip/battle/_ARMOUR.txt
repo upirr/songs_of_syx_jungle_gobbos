@@ -1,0 +1,17 @@
+**must exist, as it has a special sprite
+RESOURCE: ARMOUR,
+MAX_AMOUNT: 8,
+EXPO: 0.5,
+ARRIVAL_AMOUNT: 0,
+WEAR_RATE: 0.1,
+DEFAULT_TARGET: 1,
+BONUS: {
+	BATTLE: {
+		ARMOUR: 8.0,
+		OFFENCE_SKILL: -0.4,
+	},
+	PHYSICS: {
+		SPEED: -1,
+		MASS: 40,
+	},
+},

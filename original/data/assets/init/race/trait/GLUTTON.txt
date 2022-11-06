@@ -1,0 +1,14 @@
+BONUS: {
+	PHYSICS: {
+		RESISTANCE_COLD: 0.2,
+		MASS: 20,
+	},
+	RATES: {
+		HUNGER: 0.1,
+	},
+},
+
+OCCURENCE: 0.5,
+DISABLES_OTHER: [
+	
+],

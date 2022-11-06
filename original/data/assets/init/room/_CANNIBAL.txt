@@ -1,0 +1,24 @@
+RESOURCES: [WOOD,STONE,],
+AREA_COSTS: [0,0.2,],
+FLOOR: STONE_MEDIUM_DARK,
+MINI_COLOR: [74,119,14,],
+
+ITEMS: [
+	{
+		COSTS: [2,0,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [1,0,],
+		STATS: [0,0.7,],
+	},
+],
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: AXE,
+	USES_TOOL: true,
+	FULFILLMENT: 0.0,
+	EDUCATION_FACTOR: 0,
+},

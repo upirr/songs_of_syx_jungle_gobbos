@@ -1,0 +1,48 @@
+TECHS: [
+
+	{
+		LEVEL_COST: 250,
+
+		TREE_ORDER: 060,		
+
+		ROOMS: [
+			REFINER_BAKERY,
+		],		
+	},
+
+	{
+		LEVEL_MAX: 25,
+		LEVEL_COST: 250,
+		LEVEL_COST_INC_MUL: 1.3,
+
+		TREE_ORDER: 5455,		
+
+		REQUIRES_TECH_LEVEL: {
+			REF_BAKERY0: 1,
+		},
+
+		BONUS: {
+			ROOM: {
+				REFINER_BAKERY: 0.1,
+			},
+		},
+	},
+
+	{
+		LEVEL_COST: 600,
+
+		TREE_ORDER: 5455,
+
+
+		REQUIRES_TECH_LEVEL: {
+			REF_BAKERY0: 1,
+		},
+
+		INDUSTRIES: {
+			REFINER_BAKERY: 1,
+		},
+	},
+
+
+],
+

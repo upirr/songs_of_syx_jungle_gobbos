@@ -1,0 +1,202 @@
+WIKIS: [
+	{
+		CATEGORY: "Guide",
+		NAME: "A. Settling Down",
+		CATEGORIES: [],
+		TEXT: "
+On the world map, there are a number of things to look out for when placing your desired capitol.
+Climates determine which rooms are available, such as farms and pastures. It also indicates what species are plentiful in the region. Species are also more or less sensitive to cold and warmth.
+%r%%r%
+As a beginner, you should choose a temperate climate and a spot that includes a lot of trees. A bit of mountain is good too, to ensure good prerequisites for future mining. High fertility is also important.
+%r%%r%
+Once you select a spot, a unique city map will be generated, resembling the terrain of the world map. Now you must choose your landing location. As a beginner, look for somewhere fertile (lush grass) with trees and stone nearby.
+",
+	},
+	
+	{
+		CATEGORY: "Guide",
+		NAME: "B. food production",
+		CATEGORIES: [],
+		TEXT: "
+Food is essential to a city. Without it subjects will start starving, which can lead to anarchy and death. Your first priority should be to ensure there is enough food produced and stored at any time. Subjects will look for food long distances away, so make sure you distribute your food all over your settlement. Different species have different hunger rates, but most eat one item of food every other day. There are different ways of making food that can be better or worse depending on where you're settling.
+%r%%r%
+Hunters{RoomsHunter}
+%r%
+Phenomenal as long as there is wild game around. Wild game will replenish very slowly though, so it's not suitable in the long run.
+%r%%r%
+Fisheries{RoomsFisheries}
+%r%
+Good overall rate, steady continuous output, and very suitable if you have water nearby. Look out for the indicators when placing them. You'll want to place them where fish is plentiful for optimal efficiency.
+%r%%r%
+Farms{RoomsFarms}
+%r%
+Different farms have different rates of production and not all farms produce edible resources. Some farms must be placed indoors. What's universal for most farms is that it should be placed at high fertility. Fertility is represented through the grass on the ground. The thicker, denser and greener grass, the more fertility there is. Farms can also be boosted by irrigation, by digging canals adjacent to the farm, or placing them by water. Farms take up a lot of space, they also only yield once a year.
+%r%%r%
+Pastures{RoomsPastures}
+%r%
+Pastures are the least space-efficient food producers, but suitable for less fertile terrain. They have a relatively low rate, but apart from food, some can produce additional rare resources. They require livestock to be populated (and will produce it while up and running). Your hunters can provide the initial livestock and you can also import it, covered in trade{Trade}.
+%r%%r%
+Industry
+%r%
+Some raw materials can be processed into edible food through industry buildings. This is not suited for early game, as industries often require complex building materials and input as well as numerous workers. They can be highly effective mid-late game however.
+%r%%r%
+Food production will be you main worker drag early on. A rough estimate is that half your population should employed in the food business. Pick the alternatives with high yield and suitable for your environment. Keep a lookout at the number of days worth of food you have stored. If it drops below 16, you're going to have a problem. And watch out for spoilage{Spoilage}. Make sure your harvest is collected and stored in warehouses{RoomsWarehouse} quickly.
+%r%%r%
+Wild growing food
+%r%
+Depending on where you've embarked, there can be wild edible plants growing here and there. You can spot them easily through the minimap. There's a button on the UI that lets you toggle squares around these edibles.
+They can be harvested from summer to autumn, and come in very handy if you're low on food, or need seeds to plant farms. 
+%r%
+In late game, you'll find that trade{Trade} will be a good alternative to feed your people. You'll also get to tax{tax} regions that you claim on the world map.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "C. extraction & construction",
+		CATEGORIES: [],
+		TEXT: "
+Stone and wood are the main components of almost every building. You can quickly harvest some with the tools at your disposal. Drag a square over either trees, or surface boulders, and your citizens will start the extraction.
+%r%%r%
+Subjects who are employed at a room, be it a farm or something else, will prioritise their work, but if they finish before their work-day is up, they'll land a hand to jobs in their vicinity.
+Unemployed subjects (oddjobbers) will do jobs anywhere, prioritising what's closest to them.
+%r%
+All subjects have work time and leisure time. Leisure time is reserved for taking care of their needs.
+%r%%r%
+Structures
+Structures, such as walls and ceiling and roads can be placed however you choose. when you place down a structure, the jobs will become visible and your subjects will start constructing it. If something isn't constructed, you can hover the tile and it will tell you if there is a problem, such as lack of resources. Take note that building materials should be close at hand, which will severely speed up construction.
+Note that you may not have enough free workers, or oddjobbers available to perform the jobs. A Builder{RoomsBuilder} can come in handy if that's the case. the builders will allocate a number of builders to do jobs in their vicinity. Builders also have a bonus when fetching raw materials for the construction.
+%r%%r%
+When building a room, you firstly designate the area the structure will entail, then you usually need to place down some furniture for the room to function. Once you hit 'construct', jobs will generate and be treated like any other job.
+%r%%r%
+You can activate or suspend any job, or toggle the planning mode manually. Suspended jobs will not be performed until you manually activate them.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "D. Maintenance",
+		CATEGORIES: [],
+		TEXT: "
+Roads and rooms all decay with time. Rooms have a isolation meter when you place them. Poor isolation will make rooms degrade faster. You improve isolation by surrounding the rooms with walls. This is on by default as you construct the room. A room's size can also determine decay. Too big, unsupported part of rooms require more. This can be fixed by placing a few pillars.
+%r%
+A room that decays shows it current decay on hover. You can also hold the right mouse button and all maintenance jobs will appear as red hammers. 
+These jobs must exclusively be performed by professional janitors{RoomJanitor}. These operate in a area centered around the janitor room. They also require building materials to function optimally.
+%r%%r%
+Degraded rooms and roads will give severe penalties.
+
+",
+	},
+	
+	{
+		CATEGORY: "Guide",
+		NAME: "E. Basic Services",
+		CATEGORIES: [],
+		TEXT: "
+Lavatories and dormitories...
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "F. Food Distribution",
+		CATEGORIES: [],
+		TEXT: "
+Food service rooms. Food level. Food preference. Drink and drink level.
+",
+	},	
+	{
+		CATEGORY: "Guide",
+		NAME: "G. Logistics & Trade",
+		CATEGORIES: [],
+		TEXT: "
+Trade.
+%r%
+Trade is essential when advancing from a village to a city. Many goods make more sense importing early on instead of producing yourself before you have the manpower to do so. Prices can be seen in the resource panel (urn, top left). Trade is done with all the factions of the world that are within your reach and that you're not at war with.
+%r%
+All prices includes toll, which is the distance to the trade partner. The prices are listed as the most profitable. Click on the prices will reveal what factions are available.
+%r%%r%
+Your sell prices get a penalty at start, it's your bartering skill. This can be decreased with the bartering bonus, achieved by increasing in rank, or through research.
+%r%%r%
+To make a simple trade, there is button to the left of the resource row in the goods panel. These resources will be delivered/fetched from your warehouses.
+%r%%r%
+To set up a permanent, automatic trade system, you need to build import and export depots, and set the slider to something that suits you.
+%r%%r%
+Trades are fully simulated, and may take some time before resulting in good being delivered, as the caravans have to travel on the world map. Your import depot space determines how much can be bought in one go.
+		
+How distances work. How the Warehouse and hauler work. How people work in general. Trade, caravans, trade rooms, trade prices.
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "H. Law & Prisoners",
+		CATEGORIES: [],
+		TEXT: "
+All species have an inclination towards criminal behaviour. This inclination is amplified by them not being happy and the size of your city. The crime rate of your entire population is shown on the top menu. Once a subject gives in to these criminal impulses they will commit a random crime, such as stealing or murdering. If a guard post is nearby and manned, they will send out guards to arrest the criminal.
+%r%%r%
+An arrested criminal will become a prisoner. It will first try to visit a court for a proper conviction. Courts increase your subjects belief in law. It will then look for a spot in a prison. If none is found, it will leave your city in exile.
+%r%%r%
+You decide your own execution rate. Executing criminals increase law, offer a spectacle and doesn't force you to feed and house your prisoners. It decreases 'mercy' though, and some races might not like that. Prisoners not sentenced to execution will serve their time for an average of 4 years. When they are released they will become citizens once more.
+%r%%r%
+You can also decide to enslave prisoners in the slaver room.
+%r%%r%
+Prisoners will be selected randomly for arena fights and temple sacrifices. If they die there, they will not be counted towards your law value.
+%r%%r%
+Good access to law facilities will increase your law value. The law value itself decreases crime.
+%r%%r%
+Prisoners are also gained from conquests and won battles.
+",
+	},	
+	{
+		CATEGORY: "Guide",
+		NAME: "I. Religion",
+		CATEGORIES: [],
+		TEXT: "
+All subjects have a religion at start. This religion can be nurtured by building temples. If you built temples, the faith in that religion will become stronger, and it may convert other subjects to the same belief. All races has different inclinations towards different religions, and it determines the effort and time needed to convert them. Religions also have different liking towards each other. Some don't match well and should be avoided in the same city. Religions that are nurtured through temples give different bonuses.
+%r%%r%
+There are three types of temples and they require different sacrifices. 
+%r%%r%
+-Resources
+%r%
+-Animals (livestock)
+%r%
+-Prisoners  
+",
+	},
+	{
+		CATEGORY: "Guide",
+		NAME: "J. Battle",
+		CATEGORIES: [],
+		TEXT: "
+Strategy%r%
+Your first objective is to train some citizens into soldiers. This is done with the training room. You specify how many and what kind of soldiers you want to train in the main army panel, (the sword top-left in the city view). Each group of soldiers are called “a division”. The training room has a max capacity of how many soldiers it can train simultaneously. The higher you set a division's training limit, the longer they will train. Once a subject has reached his training level, he will continue to train until double the training limit is reached. This is because training degrades with time, and once they are done training, they go back to working until the subject's training level is less or equal to the division's set limit. Soldiers are used to defend your city against invading forces. 
+%r%%r%
+On the world map, you can recruit an army by clicking the sword -> recruit. An army can be recruited anywhere in your owned territory. Once an army is recruited, click it. In this panel you have options to fill it with divisions. There are tree kinds:
+%r%
+“Recruit” - This lets you create a regional division. Manpower will be drawn from you kingdom's manpower pool. These soldiers need supplies from your city. The higher you set their training level, the longer you will have to wait until they are ready to fight.
+%r%
+“Mercenaries” - These guys are instantly recruited and require no supplies. They cost money to upkeep. You get a bigger selection of mercenaries as you grow your realm.
+%r%
+“City troops” - You get these by going back to the city view, click the army tab and there's a button by each division allowing you to pick a world army for them to join. The subjects will then walk to the edge of the map and join the army. 
+%r%%r%
+Supplies%r%
+Supplies a re-used by an army and delivered through the military depot in your cities. Without supplies, your troops will get a morale penalty, and if that reaches zero, they will desert. An army is only supplied when it is fortified and in allied territory. An army becomes fortified when it's stood still for one day. Your city must also be open and not under siege for supplies to be sent. Battlegear is an exception, the army doesn't care about it, it just determines how well equipped your soldiers are when it's time to do battle. Supplies are sent until the army has a 1 year supply of them, giving you 1 year to sally forth and conquer new regions. Supplies are returned to the city if an army is disbanded. 
+%r%%r%
+Controlling Armies%r%
+An army can move, intercept and besiege. Intercepting can be done on any other army. If it is an enemy army, then upon arrival, a battle will happen. 
+%r%%r%
+Sieges%r%
+When an army reaches an enemy city, it will besiege it. You can only auto resolve sieges, and the longer you wait, the weaker the garrison will become. You will automatically take the city once your estimated casualties are 0. You can also attack at any time, by just selecting your army and clicking the besieged city. Once a city is conquered, you can choose to sack it to different degrees. The goods will be sent to your capitol. You can choose to claim the region, or “set it free”
+%r%%r%
+Rebels%r%
+The “free people” are hostile towards you by default and enemy garrisons and armies will attack you if they feel they have a chance at succeeding. On occasion, rebel armies will spawn either in rebel regions, or your own, unhappy, regions. These will besiege your cities and fight your armies. Sometimes you will get a message about bribing them.
+%r%%r%
+Capitol%r%
+Your capitol acts as a regional centre with a garrison, being your trained troops that are present. You can sally out and fight enemy armies that are within range. If an army besieges you, it will be as if your city is closed and you can not interact with the outside world. The enemy will continue the siege for some time, until it feels victory is certain. The enemy troops that spawn will head for your throne, and if they reach it, you'll be defeated and pay a hefty price. If it's another faction that attacks you, it will subjugate you and have you pay an annual fee. Your only way out is to be conquered by another faction, or declare war against your overlord. 
+%r%%r%
+AI factions can attack you at any time, and you can attack them. If the situation is dire, they may send an option to become their subjugate. If you on the other hand manage to defeat them, and lay siege to their capitol, they will offer to surrender to you, becoming your subjugate. Subjugates pay big sums of money to you annually.
+%r%%r%
+Tactics%r%
+When a battle is spawned, you'll see your troops and your throne. The throne must be protected. If the enemy reaches it, you loose. You have the option to retreat, but expect to loose a lot of troops and supplies doing so. You select divisions by either clicking their icons, or drag and select an area on the map. When some are selected, you'll place them by clicking and holding left mouse button. Deselect them by right clicking.
+%r%%r%
+The key is morale, more troops will flee than die. You break the enemy morale by inflicting many casualties on a division and once they run, the others will follow. Try to flank the enemy and break their formation with a charge.
+",
+	},
+],

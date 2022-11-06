@@ -1,0 +1,15 @@
+INFO: {
+	NAME: "Coal Mine",
+	NAMES: "Coal Mines",
+	DESC: "Mines extract minerals from the ground. It's efficiency is determined by the density of the minerals along with the auxiliary items you place.",
+},
+
+BONUS: {
+	NAME: "Coal Mining",
+	DESC: "Increases the output of your coal miners.",
+},
+
+WORK: {
+	TITLE: "Coal Miner",
+	VERB: "Mining coal",
+},

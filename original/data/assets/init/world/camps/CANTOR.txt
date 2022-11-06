@@ -1,0 +1,112 @@
+RACE: CANTOR,
+SPRITE: Cantor,
+COLOR_MASK: {R:255,G:255,B:255,},
+FROM: {
+	IMMIGRANTS: 10,
+	REPLENISH_PER_DAY: 0.125,
+	REQUIREMENTS: {
+
+		RELIGION: {
+			TEMPLE_ATHURI: {
+				AMOUNT: 35, 
+			},
+		},
+
+		STATS: {
+			RELIGION: {
+				FAITH: {
+					AMOUNT: 30,
+					CLASS: CITIZEN,
+				},
+			},
+			
+			ACCESS: {
+				AWE: {
+					AMOUNT: 30,
+					CLASS: CITIZEN,
+				},
+			},
+
+			POPULATION: {
+				LAW: {
+					AMOUNT: 50,
+					CLASS: CITIZEN,
+				},
+			},
+
+		},
+
+		POPULATION: [
+			{
+				RACE: CANTOR,
+				CLASS: SLAVE,
+				AMOUNT: 0,
+				IS_MAX: true,
+			},
+
+			{
+				AMOUNT: 1000,
+			},
+		],
+	},
+},
+TO: {
+	IMMIGRANTS: 40,
+	REPLENISH_PER_DAY: 0.25,
+	REQUIREMENTS: {
+
+		RELIGION: {
+			TEMPLE_ATHURI: {
+				AMOUNT: 80, 
+			},
+		},
+
+		STATS: {
+			RELIGION: {
+				FAITH: {
+					AMOUNT: 80,
+					CLASS: CITIZEN,
+				},
+			},
+			
+			ACCESS: {
+				AWE: {
+					AMOUNT: 70,
+					CLASS: CITIZEN,
+				},
+			},
+
+			POPULATION: {
+				LAW: {
+					AMOUNT: 80,
+					CLASS: CITIZEN,
+				},
+			},
+		},
+
+		POPULATION: [
+			{
+				RACE: CANTOR,
+				CLASS: SLAVE,
+				AMOUNT: 0,
+				IS_MAX: true,
+			},
+			{
+				AMOUNT: 1000,
+			},
+
+		],
+	},
+},
+
+CLIMATE: {
+	COLD: 1,
+	TEMPERATE: 1,
+	HOT: 1,
+},
+TERRAIN: {
+	MOUNTAIN: 0.05,
+	FOREST: 0.001,
+	WET: 0.001,
+	NONE: 0.0001,
+},

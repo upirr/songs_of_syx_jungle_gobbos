@@ -1,0 +1,8 @@
+DECLINE_VALUE: 1.0,
+BONUS_MISC: {
+
+},
+
+STANDING: {
+	
+},

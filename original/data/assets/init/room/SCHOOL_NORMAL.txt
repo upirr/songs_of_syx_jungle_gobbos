@@ -1,0 +1,46 @@
+TYPE: SCHOOL,
+RESOURCES: [WOOD,FURNITURE,PAPER,FABRIC,],
+AREA_COSTS: [0.2,0.0,0.0,0.0,],
+FLOOR: WOOD,
+MINI_COLOR: [134,184,184,],
+LEARNING_SPEED: 0.04,
+
+ITEMS: [
+	{
+		COSTS: [0,2,1,0,],
+		STATS: [1,0,],
+	},
+	{
+		COSTS: [0,2,2,0,],
+		STATS: [0,1,],
+	},
+	{
+		COSTS: [0,0,0,1,],
+		STATS: [0,0.2,],
+	},
+],
+
+SERVICE: {
+	SOUND: LIBRARY,
+	DEFAULT_ACCESS: 1.0,
+	STANDING: {
+		
+	},
+},
+
+
+WORK: {
+	SHIFT_OFFSET: 0.125,
+	SOUND: LIBRARY,
+	USES_TOOL: false,
+	FULFILLMENT: 1.0,
+	EDUCATION_FACTOR: 0.0,
+},
+
+INDUSTRY: {
+	IN: {
+		PAPER: 0.25,
+	},
+},
+
+

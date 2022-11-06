@@ -1,0 +1,28 @@
+TECHS: [
+
+	{	
+		LEVEL_COST: 75,
+
+		TREE_ORDER: 5110,		
+
+		ROOMS: [
+			LAVATORY_NORMAL,
+		],
+	},
+
+	{
+		LEVEL_COST: 1800,
+
+		TREE_ORDER: 5110,
+	
+		REQUIRES_TECH_LEVEL: {
+			CIV_HYGIENE0: 1,
+		},
+
+		ROOMS: [
+			BATH_NORMAL,
+		],		
+	},
+
+],
+

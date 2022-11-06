@@ -1,0 +1,119 @@
+RACE: ARGONOSH,
+SPRITE: Argonosh,
+COLOR_MASK: {R:255,G:255,B:255,},
+FROM: {
+	IMMIGRANTS: 10,
+	REPLENISH_PER_DAY: 0.25,
+	REQUIREMENTS: {
+
+		RELIGION: {
+			TEMPLE_SHMALOR: {
+				AMOUNT: 35, 
+			},
+		},
+
+		STATS: {
+			FOOD:{
+				FOOD_DAYS: {
+					AMOUNT: 50,
+					CLASS: CITIZEN,
+				},
+				FOOD_RATIONS: {
+					AMOUNT: 20,
+					CLASS: CITIZEN,
+				},
+			},
+			RELIGION: {
+				FAITH: {
+					AMOUNT: 30,
+					CLASS: CITIZEN,
+				},
+			},
+			
+			ACCESS: {
+				DREAD: {
+					AMOUNT: 15,
+					CLASS: CITIZEN,
+				},
+			},
+		},
+
+		POPULATION: [
+			{
+				RACE: ARGONOSH,
+				CLASS: SLAVE,
+				AMOUNT: 0,
+				IS_MAX: true,
+			},
+			{
+				AMOUNT: 1000,
+			},
+		],
+
+	},
+},
+
+
+
+TO: {
+	IMMIGRANTS: 40,
+	REPLENISH_PER_DAY: 1.0,
+	REQUIREMENTS: {
+
+		RELIGION: {
+			TEMPLE_SHMALOR: {
+				AMOUNT: 80, 
+			},
+		},
+
+		STATS: {
+			FOOD:{
+				FOOD_DAYS: {
+					AMOUNT: 80,
+					CLASS: CITIZEN,
+				},
+				FOOD_RATIONS: {
+					AMOUNT: 40,
+					CLASS: CITIZEN,
+				},				
+			},		
+			RELIGION: {
+				FAITH: {
+					AMOUNT: 80,
+					CLASS: CITIZEN,
+				},
+			},
+			
+			ACCESS: {
+				DREAD: {
+					AMOUNT: 30,
+					CLASS: CITIZEN,
+				},
+			},
+		},
+
+		POPULATION: [
+			{
+				RACE: ARGONOSH,
+				CLASS: SLAVE,
+				AMOUNT: 0,
+				IS_MAX: true,
+			},
+			{
+				AMOUNT: 1000,
+			},
+		],
+	},
+},
+
+CLIMATE: {
+	COLD: 1,
+	TEMPERATE: 1,
+	HOT: 1,
+},
+TERRAIN: {
+	MOUNTAIN: 0.05,
+	FOREST: 0.001,
+	WET: 0.001,
+	NONE: 0.0001,
+},

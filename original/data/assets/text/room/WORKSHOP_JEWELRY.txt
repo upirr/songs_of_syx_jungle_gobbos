@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Jeweller",
+	NAMES: "Jewellers",
+	DESC: "Workshop that forges jewelry from coal and gems. Very slow production rate and consumes a lot of resources.",
+},
+
+BONUS: {
+	NAME: "Jewelry Crafting",
+	DESC: "Increases effectiveness of Jewellers",
+},
+
+WORK: {
+	TITLE: "Jeweller",
+	VERB: "Crafting Jewelry",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},	
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

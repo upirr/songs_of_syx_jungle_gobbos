@@ -1,0 +1,3 @@
+MALE: "Sheriff",
+FEMALE: "Sheriff",
+DESC: "The locals now recognize you as their rightful ruler and as such, you are now free to dictate laws for them.  Neighbors are a bit more willing to trade crucial materials you can't produce at home.",

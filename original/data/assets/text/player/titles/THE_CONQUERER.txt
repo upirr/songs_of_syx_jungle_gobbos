@@ -1,0 +1,2 @@
+NAME: "The Conquerer",
+DESC: "Gained by killing your enemies.",

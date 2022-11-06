@@ -1,0 +1,186 @@
+
+ROOM_TYPE: {
+
+},
+
+ROOM: {
+
+},
+
+EQUIP: {
+	
+},
+
+PHYSICS: {
+	STAMINA: {
+		NAME: "Stamina",
+		DESC: "How far and a subject can walk or run before needing to rest.",
+	},
+	SPEED: {
+		NAME: "Speed",
+		DESC: "The speed of a subject, expressed in tiles per second.",
+	},
+	MASS: {
+		NAME: "Weight",
+		DESC: "The Weight of a subject.",
+	},
+	ACCELERATION: {
+		NAME: "Acceleration",
+		DESC: "How fast a subject speeds up",
+	},
+	HEALTH: {
+		NAME: "Health",
+		DESC: "General health of subject. Determines the subject's ability to fend off a disease and heal injuries.",
+	},
+	RESISTANCE_HOT: {
+		NAME: "Heat Resistance",
+		DESC: "The ability for a subject to endure hot temperatures.",
+	},
+	RESISTANCE_COLD: {
+		NAME: "Cold Resistance",
+		DESC: "The ability for a subject to endure cold temperatures.",
+	},
+	ADULT_AT_DAY: {
+		NAME: "Adult at Day",
+		DESC: "The age in days this species is considered an adult.",
+	},
+	DEATH_AGE: {
+		NAME: "Lifespan",
+		DESC: "The maximum amount of years a subject can live for.",
+	},
+	HEAL_RATE: {
+		NAME: "Healing",
+		DESC: "Determines how fast a subject heals its injuries and at what point of injuries it can recover from.",
+	},
+},
+
+BATTLE: {
+	ARMOUR: {
+		NAME: "Armour",
+		DESC: "Armour protects a subject from pierce damage, by reducing it upon a successful blow. It protects from all directions.",
+	},
+	PIERCE_DAMAGE: {
+		NAME: "Pierce Damage",
+		DESC: "Damage dealt by a subject that cuts. A lot more devastating than blunt damage, but can be evaded by armour.",
+	},
+	BLUNT_DAMAGE: {
+		NAME: "Blunt Damage",
+		DESC: "Damage that disregards armour and is sheer force. Will be absorbed by the opponents weight, possibly causing injuries.",
+	},
+	OFFENCE_SKILL: {
+		NAME: "Offence Skill",
+		DESC: "A soldier's offensive skill determines the ability to land a successful hit on an enemy and evade the enemy's armour.",
+	},
+	DEFENCE_SKILL: {
+		NAME: "Defence Skill",
+		DESC: "A soldiers defensive skill is used when attacked frontally to block or dodge an enemy's attack.",
+	},
+	ACCURACY: {
+		NAME: "Accuracy",
+		DESC: "A soldier's capability to fling a projectile. This is multiplied with the stats of the ammunition in use.",
+	},
+	RANGED_SKILL: {
+		NAME: "Ranged Skill",
+		DESC: "Boosts ranged weapons. The amount of boost depends on the ranged weapon itself.",
+	},
+	MORALE: {
+		NAME: "Morale",
+		DESC: "A soldier's morale is what determines how long, and against what odds and setbacks, it will fight for before taking flight.",
+	},
+},
+
+BEHAVIOUR: {
+	SKINNYDIPPING: {
+		NAME: "Skinnydipping",
+		DESC: "How often a subject skinnydips.",
+	},
+	CANNIBALISM: {
+		NAME: "Cannibalism",
+		DESC: "How inclined a subject is to eat other subjects when facing starvation.",
+	},
+	MOURNING: {
+		NAME: "Mourning",
+		DESC: "How inclined a subject is to visit the grave of a loved one.",
+	},
+	LAWFULNESS: {
+		NAME: "Lawfulness",
+		DESC: "A lawful citizen is one that is reluctant to commit crime.",
+	},
+	SUBMISSION: {
+		NAME: "Submission",
+		DESC: "Submission is useful for slaves. Submissive slaves will be reluctant to revolt and you can mistreat them more.",
+	},
+	HAPPINESS: {
+		NAME: "Happiness",
+		DESC: "Happiness is the overall happiness of your citizens. Unhappy citizens might riot.",
+	},
+},
+
+RATES: {
+	DEFECATE: {
+		NAME: "Defecation",
+		DESC: "Defecation rate determines how often a subject needs to empty their bowl.",
+	},
+	SOIL: {
+		NAME: "Soiling",
+		DESC: "The rate at which subject turn dirty and need to wash.",
+	},
+	HUNGER: {
+		NAME: "Hunger",
+		DESC: "At which rate subjects become hungry and need to eat.",
+	},
+	THIRST: {
+		NAME: "Thirst",
+		DESC: "The rate at which a subject want to consume drink.",
+	},
+	SLEEP: {
+		NAME: "Sleep",
+		DESC: "The rate at which a subjects need to sleep.",
+	},
+	PIETY: {
+		NAME: "Piety",
+		DESC: "The rate at which a subject want to visit a temple.",
+	},
+	LEARNING: {
+		NAME: "Learning",
+		DESC: "The rate at which a subject is educated or indoctrinated",
+	},
+	NEUROTICISM: {
+		NAME: "Neuroticism",
+		DESC: "Determines the chance a subject will become deranged during its lifetime.",
+	},
+	DOCTOR: {
+		NAME: "Medicine",
+		DESC: "The rate at which a subject needs a medical checkup.",
+	},
+},
+
+CIVIC: {
+	MAINTENANCE: {
+		NAME: "Maintenance",
+		DESC: "Decreases the rate at which our buildings degrade.",
+	},
+	TRADE: {
+		NAME: "Bartering",
+		DESC: "Improves the trust with your trade partners and allows you to sell your goods for a better price. This bonus is relative to the base price of the particular resources.",
+	},
+	SPOILAGE: {
+		NAME: "Spoilage",
+		DESC: "Decreases the spoilage rate of goods",
+	},
+	ACCIDENT: {
+		NAME: "Accidents",
+		DESC: "Decreases the chance of work related accidents.",
+	},
+},
+
+START: {
+	LANDING: {
+		NAME: "Settle",
+		DESC: "Increases your starting subjects and resources.",
+	},
+	KNOWLEDGE: {
+		NAME: "Knowledge",
+		DESC: "Starting knowledge",
+	},
+},

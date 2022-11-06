@@ -1,0 +1,2 @@
+NAME: "Fighter",
+DESC: "A natural born fighter amongst ones kin.",

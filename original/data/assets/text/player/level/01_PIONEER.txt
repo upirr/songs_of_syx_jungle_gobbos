@@ -1,0 +1,3 @@
+MALE: "Pioneer",
+FEMALE: "Pioneer",
+DESC: "You've struck out to start a new settlement with a small handful of people.  They know not to expect much but that will surely change.",

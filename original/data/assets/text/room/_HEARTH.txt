@@ -1,0 +1,32 @@
+INFO: {
+	NAME: "Hearth",
+	NAMES: "Hearths",
+	DESC: "Helps keeping your subjects warm in cold weathers. Has no workers, but are managed by odd jobbers and janitors",
+	WIKI: {
+		CATEGORY: "Service",
+		NAME: "Hearth",
+		TEXT: "Helps keeping your subjects warm in cold weathers. Has no workers, but are managed by odd jobbers and janitors.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Spots",
+		DESC: "Available spots",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Hearth",
+		DESC: "",
+	},
+],
+
+SERVICE: {
+	NAME: "Spot",
+	NAMES: "Spots",
+	DESC: "Where your subjects can warm up",
+	VERB: "Warming up",
+},

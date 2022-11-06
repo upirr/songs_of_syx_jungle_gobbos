@@ -1,0 +1,24 @@
+TYPE: MINE,
+RESOURCES: [WOOD, METAL,],
+AREA_COSTS: [0, 0,],
+FLOOR: MINE,
+MINI_COLOR: [241,94,0,],
+ITEMS: [
+	{
+		COSTS: [1,0,],
+		STATS: [0,0,0,0,1,0,],
+	},
+		{
+		COSTS: [1,1,],
+		STATS: [0,0,0,0,0,3,],
+	},
+],
+SOUND2: CRANK,
+
+ENVIRONMENT_EMIT: {
+	_NOISE: {
+		VALUE: 1,
+		RADIUS: 1,
+	},
+},
+

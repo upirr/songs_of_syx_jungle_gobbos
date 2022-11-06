@@ -1,0 +1,3 @@
+MALE: "Chieftain",
+FEMALE: "Chieftain",
+DESC: "Most people of your starting region have heard about you, but few acknowledge your claim to the land. There are still other villages and towns greater than yours. %r%%r%You can now create the administration room and start taxing your starting province from the world map",

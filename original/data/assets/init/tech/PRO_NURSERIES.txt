@@ -1,0 +1,45 @@
+TECHS: [
+
+	{	
+		LEVEL_COST: 500,
+
+		TREE_ORDER: 6555,	
+			
+		ROOMS: [
+
+			NURSERY_HUMAN,
+
+		],
+	},
+
+	{	
+		LEVEL_COST: 500,
+
+		TREE_ORDER: 6555,		
+
+		ROOMS: [
+			NURSERY_CRETONIAN,
+		],
+	},
+
+	{	
+		LEVEL_COST: 500,
+
+		TREE_ORDER: 6555,
+
+		ROOMS: [
+			NURSERY_TILAPI,
+		],
+	},
+
+	{	
+		LEVEL_COST: 500,
+
+		TREE_ORDER: 6555,		
+
+		ROOMS: [
+			NURSERY_GARTHIMI,
+		],
+	},
+
+],

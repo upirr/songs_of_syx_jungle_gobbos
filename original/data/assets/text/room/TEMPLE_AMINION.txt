@@ -1,0 +1,73 @@
+INFO: {
+	NAME: "Temple of Aminion",
+	NAMES: "Temples of Aminion",
+	DESC: "Aminion, the fallen one, lord of chaos. The nemisis of the Athuri. Promotes submission and requires human sacrifice. Clashes with most other religion.",
+	WIKI: {
+		CATEGORY: "Religion",
+		NAME: "Aminion",
+		TEXT: "Aminion, the fallen one, lord of chaos. The nemisis of the Athuri. Promotes submission and requires human sacrifice. Clashes with most other religion.",
+		CATEGORIES: [],
+	},
+},
+
+STATS: [
+	{
+		NAME: "Priests",
+		DESC: "The amount of priests that need to be staffed.",
+	},
+	{
+		NAME: "Worshippers",
+		DESC: "The capacity of worshippers the will be available.",
+	},
+	{
+		NAME: "Decoration",
+		DESC: "The amount of decoration. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Grandeur",
+		DESC: "The sheer size of the room. The gods like it big. Will boost the temple efficiency.",
+	},
+	{
+		NAME: "Space",
+		DESC: "No one likes a cluttered temple. This is the area divided by the amount of worshippers. Will boost the temple efficiency.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Altar",
+		DESC: "The place of rituals. Adds Priest and worshipper capacity.",
+	},
+	{
+		NAME: "Decorations",
+		DESC: "Shrines and decorations to the honour of deity. Increases decoration",
+	},
+	{
+		NAME: "Torch",
+		DESC: "A torch. Increases decoration",
+	},
+	{
+		NAME: "Relief",
+		DESC: "A relief that increases decoration.",
+	},
+	{
+		NAME: "Pathway",
+		DESC: "Pathways to increase decoration.",
+	},
+],
+
+WORK: {
+	TITLE: "Priests",
+	VERB: "Worshipping",
+},
+
+SERVICE: {
+	NAME: "Temple",
+	NAMES: "Temples",
+	VERB: "Worshipping",
+},
+
+RELIGION: {
+	NAME: "Aminionism",
+	DESC: "Followers of Aminion, the lord of chaos. Promotes submission and his temples accepts human sacrifices (prisoners).",
+},

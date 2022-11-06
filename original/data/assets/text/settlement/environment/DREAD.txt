@@ -1,0 +1,4 @@
+INFO: {
+	NAME: "Dread",
+	DESC: "Dread increases people's obidience, but can make them unhappy.",
+},

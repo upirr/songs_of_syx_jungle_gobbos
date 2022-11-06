@@ -1,0 +1,40 @@
+INFO: {
+	NAME: "Tailor",
+	NAMES: "Tailors",
+	DESC: "Workshop that sews clothes from fabric or leather.",
+},
+
+BONUS: {
+	NAME: "Tailoring",
+	DESC: "Increases effectiveness of Tailors",
+},
+
+WORK: {
+	TITLE: "Tailor",
+	VERB: "Making Clothes",
+},
+
+STATS: [
+	{
+		NAME: "Workers",
+		DESC: "The amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production",
+	},
+	{
+		
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

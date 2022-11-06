@@ -1,0 +1,37 @@
+TECHS: [
+
+	{
+		NAME: "Greenspace",
+		CATEGORY:"Civic",
+		
+		DESC: "Carefully tended trees bring some sense of peace within the chaos of city life.  
+
+		%r%%r%
+
+		(Trees radiate Harmony, which is preferred by some species.)",
+	},
+
+	{
+		NAME: "Torch",
+		CATEGORY:"Civic",
+
+		DESC: "Metal braziers flood the streets and tunnels with light, providing safety.
+
+		%r%%r%
+		
+		(Torches radiate Light, which is preferred by some species.)
+		",
+	},
+
+	{
+		NAME: "Monuments",
+		CATEGORY:"Civic",
+
+		DESC: "Sculpted statues and towering pillars project the might of your city state.  
+
+		%r%%r%
+
+		(Monuments radiate Awe, which is preferred by some species)",
+	},
+
+],

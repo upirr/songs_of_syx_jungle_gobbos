@@ -1,0 +1,35 @@
+INFO: {
+	NAME: "Hunter",
+	NAMES: "Hunters",
+	DESC: "Hunters will sneak out into the wilderness, stalk and kill prey to bring back to butcher for meat and resources.",
+},
+
+WORK: {
+	TITLE: "Hunter",
+	VERB: "Stalking prey",
+},
+
+VERB2: "Returning prey",
+VERB3: "Butchering carcass",
+
+STATS: [
+	{
+		NAME: "Hunters",
+		DESC: "The max amount of workers",
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Efficiency increases production of resources when butchering prey",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Work Bench",
+		DESC: "Where subjects work",
+	},
+	{
+		NAME: "Auxiliary Station",
+		DESC: "Adds Efficiency to the room",
+	},
+],

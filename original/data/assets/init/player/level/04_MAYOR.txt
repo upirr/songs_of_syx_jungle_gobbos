@@ -1,0 +1,10 @@
+POPULATION: 500,
+NOBLES: 3,
+BONUS: {
+	BEHAVIOUR: {
+		HAPPINESS: 0.05,
+	},
+},
+ROOMS: [
+	
+],

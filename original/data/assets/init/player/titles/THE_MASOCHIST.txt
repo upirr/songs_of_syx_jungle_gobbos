@@ -1,0 +1,22 @@
+REQUIREMENTS: {
+	POPULATION: [
+		{
+			AMOUNT: 2000,
+		},
+	],
+	HAPPINESS: [
+		{
+			CLASS: CITIZEN,
+			AMOUNT: 90,
+		},
+	],
+},
+
+BONUS: {
+	ROOM: {
+	
+	},
+	BEHAVIOUR: {
+		HAPPINESS: -0.10,
+	},
+},

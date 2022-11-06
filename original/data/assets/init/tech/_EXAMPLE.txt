@@ -1,0 +1,65 @@
+**There are two ways of defining tech. One is in an array for, the other is a one-op.
+**Array form is recommended when you want to make a group of techs, as to not clutter the game with many, many files.
+
+**ONE-OP --------------------------------------------
+
+**How many levels this tech has. With each level, the bonuses declared increases by their values. Unlocks are only affected by level 0 -> 1. 
+**Can be omitted, in which case the tech will only have one level.
+LEVEL_MAX: 5,
+
+**How much knowledge level 0->1 will cost to unlock.
+LEVEL_COST: 100,
+
+**How much each level increases the price.
+LEVEL_COST_INC: 50,
+
+** what other techs and what level they need to be at, to unlock this tech. Keys are the file names of the other techs. Can have multiple entries.
+REQUIRES_TECH_LEVEL: {
+	OTHER_TECH: 1,
+},
+
+**Each boostable (see BOOSTABLE.txt) gets its own technology, as declared in BOOSTABLES.txt. This is the same as above, but you put in boostable keys here.
+REQUIRES_BONUS: {
+	ROOM: {
+		SOME_ROOM: 2,
+	},
+},
+
+**The bonuses of each level. Uses the same structure as above.
+BONUS: {
+	ROOM_TYPE: {FARM: 0.4,},
+},
+
+**UNLOCKS
+
+**ROOMS that will be unlocked by the tech
+ROOMS: [
+	SCHOOL_NORMAL,
+],
+
+**What industries that are unlocked by this tech.
+INDUSTRIES: {
+	WORKSHOP_SMITHY: 1,
+},
+
+**What room upgrades are unlocked.
+UPGRADES: [
+	LIBRARY_NORMAL,
+],
+
+**ARRAY ----------------------------------------------
+
+**The array form is simply:
+
+TECHS: [
+	{
+		ONE-OP
+	},
+	{
+		ONE-OP
+	},
+],
+
+They keys to these techs will be filename + order, so these two would be _EXAMPLE0 and _EXAMPLE1. Make sure the text file also has an array with the name and description.
+
+
