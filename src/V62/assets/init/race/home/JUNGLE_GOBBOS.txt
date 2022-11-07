@@ -117,7 +117,7 @@ CITIZEN: {
 	STORAGE_1x1: [
 		{
 			RESOURCES: {
-				FURNITURE: 2,
+				CLAY: 2,
 			},
 			FPS: 0,
 			SHADOW_LENGTH: 2,
@@ -141,7 +141,7 @@ CITIZEN: {
 		},
 		{
 			RESOURCES: {
-				FURNITURE: 3,
+				FURNITURE: 1,
 			},
 			FPS: 0,
 			SHADOW_LENGTH: 2,
@@ -167,7 +167,7 @@ CITIZEN: {
 	NICKNACK_B_1x1: [
 		{
 			RESOURCES: {
-				LIVESTOCK: 2,
+				LIVESTOCK: 1,
 			},
 			FPS: 0,
 			SHADOW_LENGTH: 2,

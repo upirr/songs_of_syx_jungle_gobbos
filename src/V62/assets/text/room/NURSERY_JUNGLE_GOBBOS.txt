@@ -1,0 +1,42 @@
+INFO: {
+	NAME: "Jungle Gobbos Nursery",
+	NAMES: "Jungle Gobbos Nurseries",
+	DESC: "A place where jungle goblin babies (oddly enough) are born and brought up. Each station is capable of bringing one up and needs fish to operate, else the green fella will starve.",
+},
+
+
+BONUS: {
+	NAME: "Jungle gobbos breeding",
+	DESC: "Increases the rate at which jungle gobbos are produced in Nurseries.",
+},
+
+STATS: [
+
+	{
+		NAME: "Cribs",
+		DESC: "Amount of Cribs",
+	},
+	{
+
+	},
+	{
+		NAME: "Efficiency",
+		DESC: "Increases birth rate.",
+	},
+],
+
+ITEMS: [
+	{
+		NAME: "Crib",
+		DESC: "",
+	},
+	{
+		NAME: "Furnishings",
+		DESC: "Increases efficiency.",
+	},
+],
+
+WORK: {
+	TITLE: "Wet Nurse",
+	VERB: "Tending to child gobbos.",
+},

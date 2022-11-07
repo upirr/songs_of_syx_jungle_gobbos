@@ -17,14 +17,14 @@ TECH: [
 PREFERRED: {
 	FOOD: [
 		MEAT,
-		MUSHROOM,
 		FISH,
+		MUSHROOM,
 	],
 	STRUCTURE: {
 		MOUNTAIN: 1,
 		STONE: 0.5,
 		GRAND: 0.3,
-		WOOD: 0.7,
+		WOOD: 1,
 	},
 	WORK: {
 		*: 0.5,
@@ -67,12 +67,14 @@ BONUS: {
 
 	PHYSICS: {
 		RESISTANCE_COLD: 0.1,
-		RESISTANCE_HOT: 0.8,
+		RESISTANCE_HOT: 0.6,
 		DEATH_AGE: 120,
 		MASS: 40,
+		ACCELERATION: 4,
+		SPEED: 6,
 	},
 	BATTLE: {
-		BLUNT_DAMAGE: 150,
+		BLUNT_DAMAGE: 80,
 	},
 	ROOM_TYPE: {
 		FISHERY: 1.2,
@@ -83,19 +85,18 @@ BONUS: {
 		_HUNTER: 1.40,
 	},
 	RATES: {
-		LEARNING: 0.5,
+		LEARNING: 0.3,
 		NEUROTICISM: 0.05,
 	},
 	BEHAVIOUR: {
 		LAWFULNESS: 0.1,
-
 	},
 },
 
 TRAITS: {
 	FIGHTER: 0.1,
 	GLUTTON: 0.1,
-	SPRINTER: 0.1,
+	SPRINTER: 0.2,
 },
 
 RESOURCE: {
@@ -111,8 +112,27 @@ RELIGION_INCLINATION: {
 },
 
 STATS: {
-	SERVICE: {
 
+	SERVICE: {
+		*: {
+
+		},
+
+		EATERY_NORMAL: {
+			CITIZEN: 1.0,
+		},
+
+		CANTEEN_NORMAL: {
+			CITIZEN: 2.5,
+		},
+
+		TAVERN_NORMAL: {
+			CITIZEN: 1.5,
+		},
+
+		ARENA_NORMAL: {
+			CITIZEN: 2,
+		},
 	},
 
 	EQUIP: {
@@ -135,7 +155,7 @@ STATS: {
 
 	BATTLE: {
 		COMBAT_TRAINING: {
-					CITIZEN: 1.0,
+					CITIZEN: 1.4,
 				},
 	},
 
@@ -151,24 +171,18 @@ STATS: {
 
 	},
 
-	ENVIRONMENT: {
-
-	},
-
 	ACCESS: {
 		HARMONY: {
-			NOBLE: 1,
-			SLAVE: 0.5,
-			CITIZEN: 1,
+			CITIZEN: 0.3,
 			INVERTED: true,
 		},
 
 		NOISE: {
 			CITIZEN: 0.5,
-			INVERTED: true,
 		},
 
 		LIGHT: {
+			CITIZEN: 1.0,
 		},
 
 		AWE: {
@@ -177,22 +191,36 @@ STATS: {
 		SPACE: {
 		},
 
+		DREAD: {
+			CITIZEN: 1,
+		},
+
+		STORED: {
+			GEM: {
+				CITIZEN: 1,
+				SLAVE: 0,
+				NOBLE: 2,
+				MULTIPLIER: 0.5,
+			},
+		},
+	},
+
+	ENVIRONMENT: {
+		ROUNDNESS: {
+			SLAVE: 0.5,
+			CITIZEN: 1,
+			NOBLE: 1.5,
+			MULTIPLIER: 2.0,
+		},
+
 		UNBURRIED: {
 			CITIZEN: 0,
 			NOBLE: 0,
 			SLAVE: 0,
 		},
-
 	},
 
-	STORED: {
-		GEM: {
-			CITIZEN: 1,
-			SLAVE: 0,
-			NOBLE: 1,
-			MULTIPLIER: 0.5,
-		},
-	},
+
 },
 
 APPEARANCE: {
@@ -228,18 +256,16 @@ APPEARANCE: {
 			TURNS_WHITE_WHEN_DEAD: false,
 			RANDOM_SEED: 1,
 			VALUES: [
-				{R: 145, G: 147, B: 76,},
-				{R: 161, G: 190, B: 86,},
-				{R: 125, G: 159, B: 72,},
-				{R: 156, G: 186, B: 93,},
-				{R: 87, G: 106, B: 46,},
-				{R: 116, G: 142, B: 61,},
-				{R: 145, G: 177, B: 76,},
-				{R: 141, G: 167, B: 86,},
+				{R: 172, G: 226, B: 20,},
+				{R: 180, G: 218, B: 51,},
+				{R: 163, G: 206, B: 39,},
+				{R: 158, G: 198, B: 47,},
+				{R: 175, G: 217, B: 54,},
+				{R: 184, G: 213, B: 141,},
+				{R: 158, G: 215, B: 38,},
 				{R: 150, G: 192, B: 61,},
-				{R: 113, G: 161, B: 82,},
-				{R: 100, G: 130, B: 86,},
-				{R: 111, G: 154, B: 91,},
+				{R: 125, G: 184, B: 81,},
+				{R: 73, G: 173, B: 36,},
 			],
 		},
 	},
@@ -257,7 +283,7 @@ APPEARANCE: {
 		{
 			OCCURRENCE: 1,
 			OCCURRENCE_EXTRA1: 0,
-			OCCURRENCE_EXTRA2: 0,
+			OCCURRENCE_EXTRA2: 1,
 			COLOR_SKIN: SKIN,
 			COLOR_LEG: SKIN,
 			COLOR_EXTRA1: SKIN,
@@ -280,6 +306,7 @@ APPEARANCE: {
 				{
 					FRAME_START: 16,
 					FRAME_VARIATIONS: 4,
+					ONLY_IF_EXTRA2: true,
 					STAINS: true,
 					FRAME_OCCURRENCE: 0.2,
 				},
@@ -298,6 +325,7 @@ APPEARANCE: {
 					FRAME_START: 6,
 					FRAME_VARIATIONS: 2,
 					FRAME_OCCURRENCE: 0.08,
+					ONLY_IF_EXTRA2: true,
 				},
 				**skirts
 				{
@@ -310,6 +338,7 @@ APPEARANCE: {
 					FRAME_START: 24,
 					FRAME_VARIATIONS: 8,
 					FRAME_OCCURRENCE: 0.3,
+					ONLY_IF_EXTRA2: true,
 				},
 			],
 		},
