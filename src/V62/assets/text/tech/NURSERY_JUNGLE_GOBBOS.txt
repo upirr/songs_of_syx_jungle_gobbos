@@ -1,0 +1,17 @@
+TECHS: [
+
+	{
+		NAME: "Jungle Gobbos Nursery",
+		CATEGORY:"Procreation",
+
+		DESC: "Your people are settled in enough to start thinking about raising children.  This land is no longer an outpost, but a place to call home.
+
+		%r%%r%
+
+		Little gobbos are so cute with all their little axes and spears.
+
+		%r%%r%
+
+		(Babies and children need a constant source of specific food or they will die.  Maximum population limit for breeding is set in the nurseries.  Be careful: uncontrolled growth can rapidly impact your people's loyalty.  Children learn quickly in schools and you benefit with improvement in the immigrants fulfillment).",
+	},
+],

@@ -1,8 +1,7 @@
 TECHS: [
 
 	{
-		LEVEL_COST: 500,
-
+		LEVEL_COST: 250,
 		TREE_ORDER: 6555,
 
 		ROOMS: [

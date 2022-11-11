@@ -85,7 +85,7 @@ BONUS: {
 		_HUNTER: 1.40,
 	},
 	RATES: {
-		LEARNING: 0.3,
+		LEARNING: 0.5,
 		NEUROTICISM: 0.05,
 	},
 	BEHAVIOUR: {
