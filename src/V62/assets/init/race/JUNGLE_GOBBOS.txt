@@ -188,8 +188,19 @@ STATS: {
 		AWE: {
 		},
 
+	HOME: {
 		SPACE: {
+			CITIZEN: 1.5,
+			SLAVE: 1,
+			NOBLE: 0,
+			INVERTED: true,
 		},
+		FURNITURE: {
+			CITIZEN: 3.5,
+			SLAVE: 1,
+			NOBLE: 2,
+		},
+	},
 
 		DREAD: {
 			CITIZEN: 1,
